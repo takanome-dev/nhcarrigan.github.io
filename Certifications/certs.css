@@ -1,0 +1,41 @@
+*:not(ul):not(li):not(a) {
+  background: url("stars.gif");
+  background-size: cover;
+  background-color: black;
+}
+main {
+  font-family: VT323;
+  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  font-size: 48pt;
+  margin-bottom: 15vh;
+  color: white;
+}
+ul {
+  max-width: 30vw;
+  margin-left: 33vw;
+  list-style: none;
+  font-size: 18pt;
+  outline-style: double;
+  outline-color: black;
+  text-align: center;
+  background-color: #FFFFFF
+}
+
+.cat-link {
+  font-size: 24pt;
+  margin-bottom: .5em;
+}
+
+a {
+  color: black
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
