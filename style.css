@@ -11,7 +11,7 @@ main{
 	margin-left: 200px;
 	padding: 0px;
 }
-#navbar-landscape{
+nav{
   background-color: #000000;
 	color: #ffffff;
   height: 100%;
@@ -23,6 +23,7 @@ main{
 	font-size: 18pt;
 	width: 200px;
 }
+<<<<<<< HEAD
 
 #navbar-portrait{
 	position: fixed;
@@ -34,20 +35,16 @@ main{
   background-color: #000000;
 	color: #ffffff;
 }
+=======
+>>>>>>> parent of 9b773c1... detect screen orientation
 #navbar-title{
 	font-size: 24pt;
 }
 .special-link{
 	font-size: 20pt;
 }
-@media (orientation: portrait){
-	#navbar-landscape{
-		display: none;
-	}
-}
-
-@media (orientation: landscape){
-	#navbar-portrait{
+@media (max-width: 500px){
+	nav{
 		display: none;
 	}
 }
