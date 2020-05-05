@@ -1,6 +1,4 @@
 *:not(ul):not(li):not(a) {
-  background: url("stars.gif");
-  background-size: cover;
   background-color: black;
 }
 main {
