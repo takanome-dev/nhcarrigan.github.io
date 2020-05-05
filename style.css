@@ -29,15 +29,15 @@ main{
   width: 100%;
   text-align: center;
 	font-size: 18pt;
-  top: 0px;
-	left: 0px;
+  top: 0%;
+	right: 5px;
   background-color: #000000;
 	color: #ffffff;
 }
 #navbar-title{
 	font-size: 24pt;
 }
-.special-link{
+#special-link{
 	font-size: 20pt;
 }
 @media (orientation: portrait){
