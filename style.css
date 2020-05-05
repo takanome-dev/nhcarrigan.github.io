@@ -1,6 +1,9 @@
 * {
 		font-family:VT323
 }
+*:not(main):not(p):not(h1):not(h2):not(a):not(i){
+	background-color: #000000;
+}
 a{
 	color: #FFFFFF;
 }
@@ -99,4 +102,13 @@ a:hover {
 }
 #profile{
 	height: 200px;
+}
+
+#footer{
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 18pt;
 }

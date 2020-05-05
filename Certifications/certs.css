@@ -1,17 +1,18 @@
-*:not(ul):not(li):not(a) {
+*:not(ul):not(li):not(a):not(p) {
   background-color: black;
 }
-main {
+* {
   font-family: VT323;
+}
+main {
   text-align: center;
-
   width: 100vw;
   height: 100vh;
 }
 h1 {
   font-size: 48pt;
   margin-bottom: 15vh;
-  color: white;
+  color: #00ff00;
 }
 ul {
   max-width: 30vw;
@@ -19,9 +20,9 @@ ul {
   list-style: none;
   font-size: 18pt;
   outline-style: double;
-  outline-color: black;
+  outline-color: #00FF00;
   text-align: center;
-  background-color: #FFFFFF
+  background-color: #000000;
 }
 
 .cat-link {
@@ -30,10 +31,18 @@ ul {
 }
 
 a {
-  color: black
+  color: #00ff00
 }
 
 a:hover {
-  background-color: black;
-  color: white;
+  background-color: #00ff00;
+  color: #000000;
+}
+#footer{
+	background-color: #000000;
+	color: #00FF00;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+  font-size: 18pt;
 }
