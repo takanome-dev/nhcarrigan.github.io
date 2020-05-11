@@ -1,7 +1,7 @@
 * {
 		font-family:VT323
 }
-*:not(main):not(p):not(h1):not(h2):not(a):not(i){
+*:not(main):not(p):not(h1):not(h2):not(a):not(i):not(div){
 	background-color: #000000;
 }
 a{
@@ -61,7 +61,7 @@ iframe {
 	background-color:#ffffff;
 	color: #000000;
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 100vw;
 	height: 100vh;
 }
@@ -76,7 +76,7 @@ iframe {
 	background-color:#ffffff;
 	color: #000000;
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 100vw;
 	height: 100vh;
 }
@@ -90,7 +90,7 @@ iframe {
 	background-color:#ffffff;
 	color: #000000;
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 100vw;
 	height: 100vh;
 }
@@ -111,4 +111,24 @@ a:hover {
 	padding: 0px;
 	text-align: center;
 	font-size: 18pt;
+}
+
+#project-container{
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	font-size: 18pt;
+}
+
+.project-tile{
+	background-color: #000000;
+	border-color: #00ff00;
+	border-size: 5px;
+	border-style: solid;
+}
+.project-image{
+	max-width: 200px;
+	max-height: 200px;
 }
