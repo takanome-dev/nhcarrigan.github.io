@@ -49,6 +49,12 @@ h2 {
 p {
   font-size: 18pt;
 }
+#contact-links {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 iframe {
   border: 0;
 }
