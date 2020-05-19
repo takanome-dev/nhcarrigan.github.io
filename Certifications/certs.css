@@ -20,7 +20,7 @@ ul {
   list-style: none;
   font-size: 18pt;
   outline-style: double;
-  outline-color: #00FF00;
+  outline-color: #00ff00;
   text-align: center;
   background-color: #000000;
   margin-bottom: 1em;
@@ -28,22 +28,22 @@ ul {
 
 .cat-link {
   font-size: 24pt;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 a {
-  color: #00ff00
+  color: #00ff00;
 }
 
 a:hover {
   background-color: #00ff00;
   color: #000000;
 }
-#footer{
-	background-color: #000000;
-	color: #00FF00;
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
+#footer {
+  background-color: #000000;
+  color: #00ff00;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
   font-size: 18pt;
 }
