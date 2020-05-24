@@ -1,12 +1,26 @@
 * {
   font-family: VT323;
 }
+
 body {
   background-color: #000000;
 }
+
 a {
+  color: #000000;
+}
+
+a:hover {
+  color: #00ff00;
+}
+
+a.nav-link {
   color: #ffffff;
   background-color: #000000;
+}
+
+a.nav-link:hover {
+  color: yellow;
 }
 
 main {
@@ -14,32 +28,6 @@ main {
   background-color: black;
   margin-left: 200px;
   padding: 0px;
-}
-nav {
-  background-color: #000000;
-  color: #ffffff;
-  height: 100%;
-  top: -5px;
-  left: -5px;
-  padding: 5px;
-  text-align: center;
-  position: fixed;
-  font-size: 18pt;
-  width: 200px;
-}
-#navbar-title {
-  font-size: 24pt;
-}
-#special-link {
-  font-size: 20pt;
-}
-@media (max-width: 500px) {
-  nav {
-    display: none;
-  }
-  main {
-    margin-left: 0px;
-  }
 }
 
 h1 {
@@ -53,19 +41,51 @@ h2 {
 p {
   font-size: 18pt;
 }
+
+ul {
+  list-style: none;
+  font-size: 24pt;
+}
+
 hr {
   border-color: #ffffff;
   border-width: 1px;
   border-style: solid;
 }
-.project-hr {
+
+hr.project-hr {
   border-color: #00ff00;
   border-width: 1px;
   border-style: solid;
 }
-#contact-links {
+
+nav {
   background-color: #000000;
   color: #ffffff;
+  height: 100%;
+  top: -5px;
+  left: -5px;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  font-size: 18pt;
+  width: 200px;
+}
+
+#navbar-title {
+  font-size: 24pt;
+}
+
+#special-link {
+  font-size: 20pt;
+}
+
+#profile {
+  height: 200px;
+}
+
+#contact-links {
+  color: #000000;
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 32pt;
@@ -84,6 +104,13 @@ hr {
   vertical-align: top;
   width: 100vw;
   height: 100vh;
+}
+
+#languages {
+  color: #000000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 32pt;
 }
 
 #projects {
@@ -115,21 +142,6 @@ hr {
   width: 100vw;
   height: 100vh;
 }
-a:hover {
-  color: yellow;
-}
-#profile {
-  height: 200px;
-}
-
-#footer {
-  background-color: #000000;
-  color: #ffffff;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  font-size: 18pt;
-}
 
 #project-container {
   margin: 10px;
@@ -150,15 +162,21 @@ a:hover {
   max-width: 200px;
   max-height: 200px;
 }
-#languages {
+
+#footer {
   background-color: #000000;
   color: #ffffff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 32pt;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 18pt;
 }
 
-ul {
-  list-style: none;
-  font-size: 24pt;
+@media (orientation: portrait) {
+  nav {
+    display: none;
+  }
+  main {
+    margin-left: 0px;
+  }
 }
