@@ -14,6 +14,15 @@ a:hover {
   color: #00ff00;
 }
 
+a.project-link {
+  color: #00ff00;
+}
+
+a.project-link:hover {
+  color: #000000;
+  background-color: #00ff00;
+}
+
 a.nav-link {
   color: #ffffff;
   background-color: #000000;
