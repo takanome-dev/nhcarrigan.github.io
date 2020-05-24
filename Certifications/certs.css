@@ -11,22 +11,29 @@ main {
 }
 h1 {
   font-size: 48pt;
-  margin-bottom: 15vh;
   color: #00ff00;
+  line-height: 20pt;
 }
-ul {
-  max-width: 30vw;
-  margin-left: 33vw;
-  list-style: none;
+p {
   font-size: 18pt;
-  outline-style: double;
-  outline-color: #00ff00;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+#back-link {
+  font-size: 20pt;
+}
+fieldset {
+  width: 40vw;
+  margin-left: 29vw;
+  font-size: 18pt;
+  border-style: double;
+  border-color: #00ff00;
   text-align: center;
   background-color: #000000;
   margin-bottom: 1em;
 }
 
-.cat-link {
+legend {
   font-size: 24pt;
   margin-bottom: 0.5em;
 }
