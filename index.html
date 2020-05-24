@@ -14,8 +14,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
+    <a
+      id="hamburger"
+      href="javascript:void(0);"
+      class="icon"
+      onclick="navMenu()"
+    >
+      <i class="fa fa-bars"></i>
+    </a>
     <nav id="navbar">
       <div id="navbar-title">Nicholas Carrigan</div>
       <hr />
@@ -41,7 +50,7 @@
       <i class="fas fa-award"></i>
       <a class="nav-link" href="Certifications/certs.html">Certifications</a>
     </nav>
-    <main>
+    <main id="main">
       <section id="welcome-section">
         <h1>About Me</h1>
         <p>

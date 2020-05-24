@@ -23,10 +23,9 @@ a.nav-link:hover {
   color: yellow;
 }
 
-main {
+#main {
   text-align: center;
   background-color: black;
-  margin-left: 200px;
   padding: 0px;
 }
 
@@ -59,7 +58,7 @@ hr.project-hr {
   border-style: solid;
 }
 
-nav {
+#navbar {
   background-color: #000000;
   color: #ffffff;
   height: 100%;
@@ -70,6 +69,15 @@ nav {
   position: fixed;
   font-size: 18pt;
   width: 200px;
+  display: none;
+}
+
+#hamburger {
+  font-size: 24pt;
+  color: #000000;
+  position: fixed;
+  z-index: 1;
+  margin-left: 5px;
 }
 
 #navbar-title {
@@ -170,13 +178,4 @@ nav {
   padding: 0px;
   text-align: center;
   font-size: 18pt;
-}
-
-@media (orientation: portrait) {
-  nav {
-    display: none;
-  }
-  main {
-    margin-left: 0px;
-  }
 }
