@@ -11,7 +11,7 @@ main {
 }
 h1 {
   font-size: 48pt;
-  color: #00ff00;
+  color: #dfc0fa;
   line-height: 20pt;
 }
 p {
@@ -27,7 +27,7 @@ fieldset {
   margin-left: 29vw;
   font-size: 18pt;
   border-style: double;
-  border-color: #00ff00;
+  border-color: #dfc0fa;
   text-align: center;
   background-color: #000000;
   margin-bottom: 1em;
@@ -39,16 +39,15 @@ legend {
 }
 
 a {
-  color: #00ff00;
+  color: #dfc0fa;
 }
 
 a:hover {
-  background-color: #00ff00;
-  color: #000000;
+  color: yellow;
 }
 #footer {
   background-color: #000000;
-  color: #00ff00;
+  color: #dfc0fa;
   margin: 0px;
   padding: 0px;
   text-align: center;
