@@ -176,8 +176,8 @@ hr.project-hr {
   border-style: solid;
 }
 .project-image {
-  max-width: 200px;
-  max-height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 #footer {
