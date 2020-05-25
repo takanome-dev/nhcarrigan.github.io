@@ -12,20 +12,19 @@ a {
 }
 
 a:hover {
-  color: #00ff00;
+  color: #dfc0fa;
 }
 
 a.project-link {
-  color: #00ff00;
+  color: #dfc0fa;
 }
 
 a.project-link:hover {
-  color: #000000;
-  background-color: #00ff00;
+  color: yellow;
 }
 
 a.nav-link {
-  color: #ffffff;
+  color: #dfc0fa;
   background-color: #000000;
 }
 
@@ -57,13 +56,13 @@ ul {
 }
 
 hr {
-  border-color: #ffffff;
+  border-color: #dfc0fa;
   border-width: 1px;
   border-style: solid;
 }
 
 hr.project-hr {
-  border-color: #00ff00;
+  border-color: #dfc0fa;
   border-width: 1px;
   border-style: solid;
 }
@@ -172,7 +171,7 @@ hr.project-hr {
 
 .project-tile {
   background-color: #000000;
-  border-color: #00ff00;
+  border-color: #dfc0fa;
   border-width: 5px;
   border-style: solid;
 }
