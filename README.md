@@ -1,7 +1,7 @@
-# nhcarrigan.github.io
+# Main Webpage
 
-These are the files for my personal portfolio.
+These files make up my primary homepage.
 
-A live deployment of these files can be viewed [here](http://www.nhcarrigan.com).
+## Feedback and Other Issues
 
-Do you have a suggestion? You can send me an [email](mailto:nhcarrigan@gmail.com) and I will take a look!
+If you have feedback or have found a bug, you can create a GitHub issue report or [contact me directly](https://contact.nhcarrigan.com).
