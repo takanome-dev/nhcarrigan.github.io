@@ -188,3 +188,9 @@ hr.project-hr {
   text-align: center;
   font-size: 18pt;
 }
+
+@media (orientation: landscape) {
+  #project-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
