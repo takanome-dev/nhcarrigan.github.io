@@ -150,7 +150,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("background3.jpg");
+    url("background4.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -169,6 +169,28 @@ hr.project-hr {
   font-size: 18pt;
 }
 
+#contribs {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("background3.jpg");
+  background-size: 100% 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: table-cell;
+  vertical-align: top;
+  width: 100vw;
+  height: 100vh;
+}
+
+#contrib-table {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  font-size: 18pt;
+}
 .project-tile {
   background-color: #000000;
   border-color: #dfc0fa;
