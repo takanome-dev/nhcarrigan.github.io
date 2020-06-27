@@ -183,6 +183,13 @@ hr.project-hr {
   width: 100vw;
   height: 100vh;
 }
+#project-table {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  font-size: 18pt;
+}
 
 #contrib-table {
   margin: 10px;
