@@ -113,7 +113,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("background1.jpg");
+    url("./img/background1.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -135,7 +135,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("background2.jpg");
+    url("./img/background2.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -150,7 +150,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("background4.jpg");
+    url("./img/background4.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -174,7 +174,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("background3.jpg");
+    url("./img/background3.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
