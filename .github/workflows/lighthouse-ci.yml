@@ -9,4 +9,5 @@ jobs:
         uses: actions/setup-node@v1
       - name: Run LightHouse CI
         run: lhci autorun
-
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}
