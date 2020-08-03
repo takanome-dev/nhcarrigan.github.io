@@ -16,9 +16,9 @@ h1 {
   line-height: 20pt;
 }
 p {
-  font-size: 1em;
-  margin-bottom: 1px;
-  margin-top: 1px;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 #back-link {
   font-size: 20pt;
