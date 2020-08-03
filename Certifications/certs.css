@@ -8,6 +8,7 @@ main {
   text-align: center;
   width: 100vw;
   height: 100vh;
+  margin: 0;
 }
 h1 {
   font-size: 48pt;
@@ -15,7 +16,7 @@ h1 {
   line-height: 20pt;
 }
 p {
-  font-size: 18pt;
+  font-size: 1em;
   margin-bottom: 1px;
   margin-top: 1px;
 }
@@ -23,8 +24,9 @@ p {
   font-size: 20pt;
 }
 fieldset {
-  width: 40vw;
-  margin-left: 29vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   font-size: 18pt;
   border-style: double;
   border-color: #dfc0fa;
@@ -48,8 +50,6 @@ a:hover {
 #footer {
   background-color: #000000;
   color: #dfc0fa;
-  margin: 0px;
-  padding: 0px;
   text-align: center;
   font-size: 18pt;
 }
