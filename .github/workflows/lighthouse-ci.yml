@@ -4,9 +4,8 @@ jobs:
   lighthouseci:
     runs-on: ubuntu-latest
     steps:
-      - name: Setting up environment
-        uses: actions/checkout@v2
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
       - name: Run LightHouse CI
         run: lhci autorun
         env:
