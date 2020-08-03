@@ -7,9 +7,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setting up environment
         uses: actions/setup-node@v1
-      - name: Install LightHouse
-        run: install -g @lhci/cli@0.4.x 
       - name: Run LightHouse CI
-        run: lhci autorun
+        run: |
+          npm install -g @lhci/cli@0.4.x
+          lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}
