@@ -212,6 +212,13 @@ hr.project-hr {
   height: 200px;
 }
 
+.code-button {
+  font-size: 24pt;
+  color: #000000;
+  background-color: #dfc0fa;
+  margin-bottom: 5px;
+}
+
 #footer {
   background-color: #000000;
   color: #ffffff;
