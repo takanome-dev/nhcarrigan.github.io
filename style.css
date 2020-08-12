@@ -187,7 +187,6 @@ hr.project-hr {
 #project-table {
   margin: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   font-size: 18pt;
 }
@@ -195,7 +194,6 @@ hr.project-hr {
 #contrib-table {
   margin: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   font-size: 18pt;
 }
@@ -228,12 +226,23 @@ hr.project-hr {
 
 @media (min-width: 400px) {
   #project-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+  #contrib-table {
+    grid-template-columns: 1fr !important;
+  }
+  #project-table {
+    grid-template-columns: 1fr !important;
   }
 }
-
 @media (min-width: 600px) {
   #project-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  #contrib-table {
+    grid-template-columns: 1fr 1fr;
+  }
+  #project-table {
     grid-template-columns: 1fr 1fr;
   }
 }
