@@ -31,6 +31,10 @@ a.nav-link {
   background-color: #000000;
 }
 
+.current-page {
+  background-color: #dfc0fa !important;
+  color: #000000;
+}
 a.nav-link:hover {
   color: yellow;
 }
@@ -58,29 +62,11 @@ ul {
   font-size: 24pt;
 }
 
-hr {
-  border-color: #dfc0fa;
-  border-width: 1px;
-  border-style: solid;
-}
 
 hr.project-hr {
   border-color: #dfc0fa;
   border-width: 1px;
   border-style: solid;
-}
-
-
-#hamburger {
-  font-size: 24pt;
-  color: #000000;
-  position: fixed;
-  z-index: 1;
-  margin-left: 5px;
-}
-
-#navbar-title {
-  font-size: 24pt;
 }
 
 #special-link {
@@ -120,21 +106,6 @@ hr.project-hr {
   font-size: 32pt;
 }
 
-#projects {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/background2.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
-}
-
 #contact {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.5),
@@ -170,12 +141,6 @@ hr.project-hr {
   vertical-align: top;
   width: 100vw;
   height: 100vh;
-}
-#project-table {
-  margin: 10px;
-  display: grid;
-  grid-gap: 10px;
-  font-size: 18pt;
 }
 
 #contrib-table {
