@@ -106,21 +106,6 @@ hr.project-hr {
   font-size: 32pt;
 }
 
-#contact {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/background4.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
-}
-
 .project-tile {
   background-color: #000000;
   border-color: #dfc0fa;

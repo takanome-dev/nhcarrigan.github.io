@@ -1,0 +1,66 @@
+* {
+  font-family: VT323;
+}
+
+body {
+  background-color: #000000;
+  cursor: url("../img/triforce.cur"), auto;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    cursor: url("../img/pointer.cur"), auto;
+  }
+  
+  a:hover {
+    color: #dfc0fa;
+    background-color: #000000;
+  }
+
+a.nav-link {
+  color: #dfc0fa;
+  background-color: #000000;
+}
+
+.current-page {
+  background-color: #dfc0fa !important;
+  color: #000000;
+}
+a.nav-link:hover {
+  color: yellow;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+#contact {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../img/background4.jpg");
+  background-size: 100% 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: table-cell;
+  vertical-align: top;
+  width: 100vw;
+  height: 100vh;
+}
+
+.current-page {
+  background-color: #dfc0fa !important;
+  color: #000000;
+}
