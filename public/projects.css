@@ -1,0 +1,98 @@
+* {
+  font-family: VT323;
+}
+
+body {
+  background-color: #000000;
+  cursor: url("../img/triforce.cur"), auto;
+  text-align: center;
+}
+
+a {
+  color: #000000;
+  cursor: url("../img/pointer.cur"), auto;
+}
+
+a:hover {
+  color: #dfc0fa;
+  background-color: #000000;
+}
+
+a.nav-link {
+  color: #dfc0fa;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  color: yellow;
+}
+.current-page {
+  background-color: #dfc0fa !important;
+  color: #000000;
+}
+#main {
+  text-align: center;
+  background-color: black;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+ul {
+  list-style: none;
+  font-size: 24pt;
+}
+
+#projects {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../img/background2.jpg");
+  background-size: 100% 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: table-cell;
+  vertical-align: top;
+  width: 100vw;
+  height: 100vh;
+}
+
+.project {
+  margin: 10px;
+  display: grid;
+  grid-gap: 0px;
+  font-size: 18pt;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.project > div {
+  border: 1px solid black;
+}
+
+.code-button {
+  font-size: 24pt;
+  color: #000000;
+  background-color: #dfc0fa;
+  margin-bottom: 5px;
+}
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 18pt;
+}

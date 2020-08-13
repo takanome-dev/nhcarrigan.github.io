@@ -4,13 +4,15 @@
 
 body {
   background-color: #000000;
-  cursor: url("./img/triforce.cur"), auto;
+  cursor: url("../img/triforce.cur"), auto;
 }
+
 
 a {
   color: #000000;
   text-decoration: none;
-  cursor: url("./img/pointer.cur"), auto;
+  cursor: url("../img/pointer.cur"), auto;
+  font-size: 18pt;
 }
 
 a:hover {
@@ -31,6 +33,10 @@ a.nav-link {
   background-color: #000000;
 }
 
+.current-page {
+  background-color: #dfc0fa !important;
+  color: #000000;
+}
 a.nav-link:hover {
   color: yellow;
 }
@@ -58,42 +64,10 @@ ul {
   font-size: 24pt;
 }
 
-hr {
-  border-color: #dfc0fa;
-  border-width: 1px;
-  border-style: solid;
-}
-
 hr.project-hr {
   border-color: #dfc0fa;
   border-width: 1px;
   border-style: solid;
-}
-
-#navbar {
-  background-color: #000000;
-  color: #ffffff;
-  height: 100%;
-  top: -5px;
-  left: -5px;
-  padding: 5px;
-  text-align: center;
-  position: fixed;
-  font-size: 18pt;
-  width: 200px;
-  display: none;
-}
-
-#hamburger {
-  font-size: 24pt;
-  color: #000000;
-  position: fixed;
-  z-index: 1;
-  margin-left: 5px;
-}
-
-#navbar-title {
-  font-size: 24pt;
 }
 
 #special-link {
@@ -116,7 +90,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./img/background1.jpg");
+    url("../img/background1.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -133,76 +107,19 @@ hr.project-hr {
   font-size: 32pt;
 }
 
-#projects {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("./img/background2.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
-}
-
-#contact {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("./img/background4.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
-}
-
 #project-container {
-  margin: 10px;
   display: grid;
-  grid-gap: 10px;
-  font-size: 18pt;
+  column-gap: 10px;
 }
 
-#contribs {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("./img/background3.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
-}
-#project-table {
-  margin: 10px;
-  display: grid;
-  grid-gap: 10px;
-  font-size: 18pt;
-}
-
-#contrib-table {
-  margin: 10px;
-  display: grid;
-  grid-gap: 10px;
-  font-size: 18pt;
-}
 .project-tile {
   background-color: #000000;
   border-color: #dfc0fa;
   border-width: 5px;
   border-style: solid;
+  color: #dfc0fa;
 }
+
 .project-image {
   width: 200px;
   height: 200px;
@@ -213,6 +130,7 @@ hr.project-hr {
   color: #000000;
   background-color: #dfc0fa;
   margin-bottom: 5px;
+  cursor: url("../img/pointer.cur"), auto;
 }
 
 #footer {
@@ -226,26 +144,16 @@ hr.project-hr {
 
 @media (min-width: 400px) {
   #project-container {
-    grid-template-columns: 1fr !important;
-  }
-  #contrib-table {
-    grid-template-columns: 1fr !important;
-  }
-  #project-table {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 }
+
 @media (min-width: 600px) {
   #project-container {
     grid-template-columns: 1fr 1fr;
   }
-  #contrib-table {
-    grid-template-columns: 1fr 1fr;
-  }
-  #project-table {
-    grid-template-columns: 1fr 1fr;
-  }
 }
+
 @media (min-width: 800px) {
   #project-container {
     grid-template-columns: 1fr 1fr 1fr;

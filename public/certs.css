@@ -1,0 +1,46 @@
+* {
+  font-family: VT323;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+main {
+  text-align: center;
+  width: 100vw;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48pt;
+  color: #dfc0fa;
+  line-height: 20pt;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: #dfc0fa;
+}
+
+a {
+  color: #dfc0fa;
+}
+
+a:hover {
+  color: yellow;
+}
+#footer {
+  background-color: #000000;
+  color: #dfc0fa;
+  text-align: center;
+  font-size: 18pt;
+}
+
+.current-page {
+  background-color: #dfc0fa !important;
+  color: #000000;
+}
