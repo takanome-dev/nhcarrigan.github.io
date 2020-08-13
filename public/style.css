@@ -7,10 +7,12 @@ body {
   cursor: url("../img/triforce.cur"), auto;
 }
 
+
 a {
   color: #000000;
   text-decoration: none;
   cursor: url("../img/pointer.cur"), auto;
+  font-size: 18pt;
 }
 
 a:hover {
@@ -62,7 +64,6 @@ ul {
   font-size: 24pt;
 }
 
-
 hr.project-hr {
   border-color: #dfc0fa;
   border-width: 1px;
@@ -106,12 +107,19 @@ hr.project-hr {
   font-size: 32pt;
 }
 
+#project-container {
+  display: grid;
+  column-gap: 10px;
+}
+
 .project-tile {
   background-color: #000000;
   border-color: #dfc0fa;
   border-width: 5px;
   border-style: solid;
+  color: #dfc0fa;
 }
+
 .project-image {
   width: 200px;
   height: 200px;
@@ -122,6 +130,7 @@ hr.project-hr {
   color: #000000;
   background-color: #dfc0fa;
   margin-bottom: 5px;
+  cursor: url("../img/pointer.cur"), auto;
 }
 
 #footer {
