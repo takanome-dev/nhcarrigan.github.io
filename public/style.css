@@ -4,13 +4,13 @@
 
 body {
   background-color: #000000;
-  cursor: url("./img/triforce.cur"), auto;
+  cursor: url("../img/triforce.cur"), auto;
 }
 
 a {
   color: #000000;
   text-decoration: none;
-  cursor: url("./img/pointer.cur"), auto;
+  cursor: url("../img/pointer.cur"), auto;
 }
 
 a:hover {
@@ -116,7 +116,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./img/background1.jpg");
+    url("../img/background1.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -138,7 +138,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./img/background2.jpg");
+    url("../img/background2.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -153,7 +153,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./img/background4.jpg");
+    url("../img/background4.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
@@ -175,7 +175,7 @@ hr.project-hr {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./img/background3.jpg");
+    url("../img/background3.jpg");
   background-size: 100% 100%;
   background-color: #ffffff;
   color: #000000;
