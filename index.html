@@ -7,7 +7,7 @@
       content="Personal Porfolio for Nicholas Carrigan, a new software engineer who is eager to learn and grow. Get in touch today!"
     />
     <title>Nicholas Carrigan's Developer Profile</title>
-    <link rel="preload" href="./public/style.css" as="style"/>
+    <link rel="preload" href="./public/style.css" as="style" />
     <link
       href="https://fonts.googleapis.com/css?family=VT323"
       rel="preload"
@@ -24,50 +24,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="./public/style.css" />
-    <script src="script.js" defer></script>
   </head>
   <body>
-    <a
-      id="hamburger"
-      href="javascript:void(0);"
-      class="icon"
-      onclick="navMenu()"
-      aria-label="Open and Close the menu"
-    >
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </a>
-    <nav id="navbar">
-      <div id="navbar-title">Nicholas Carrigan</div>
-      <hr />
-      <img
-        id="profile"
-        src="./img/profile.jpg"
-        alt="Profile Picture - Portrait of myself"
-      />
-      <hr />
-      <i class="fas fa-envelope"></i>
-      <a class="nav-link" href="http://contact.nhcarrigan.com" id="special-link"
-        >Contact</a
-      >
-      <hr />
-      <i class="fas fa-user-circle"></i>
-      <a class="nav-link" href="#welcome-section">About me</a>
-      <hr />
-      <i class="fas fa-file-code"></i>
-      <a class="nav-link" href="#projects">Projects</a>
-      <hr />
-      <i class="fas fa-id-card"></i>
-      <a class="nav-link" href="#contact">Social Media</a>
-      <hr />
-      <i class="fas fa-award"></i>
-      <a class="nav-link" href="Certifications/certs.html">Certifications</a>
-      <hr />
-      <i class="fas fa-pencil-alt"></i>
-      <a class="nav-link" href="https://blog.nhcarrigan.com">Blog</a>
-    </nav>
     <main id="main">
       <section id="welcome-section">
-        <h1>About Me</h1>
+        <h1>Nicholas Carrigan</h1>
+        <h2>Software Engineer</h2>
+        <img
+          id="profile"
+          src="./img/profile.jpg"
+          alt="Picture of a young male, wearing a suit and tie, with glasses and a beard."
+        />
         <p>
           I am an aspiring developer who is just learning the basics of coding.
           I began the FreeCodeCamp curriculum on 15 April 2020, and have
@@ -85,7 +52,7 @@
           all of them. If you'd like to contribute, you can access my GitHub
           profile in the Contact section below.
         </p>
-        <h2>Here are the languages I speak:</h2>
+        <h2>Here are the technologies I use:</h2>
         <p id="languages">
           <i class="fab fa-html5" title="HTML 5"></i> |
           <i class="fab fa-css3-alt" title="CSS 3"></i> |
@@ -105,114 +72,8 @@
           <li>TypeScript</li>
           <li>Python</li>
         </ul>
-      </section>
-      <hr />
-      <section id="projects">
-        <h1>Projects</h1>
-        <p>
-          These are some of my top projects. I have selected these particular
-          projects because I feel they most effectively represent my current
-          level of proficiency, or because they simply make me proud. You can
-          view the rest of my projects with the links in the
-          <a href="#contact">Contact Me</a> section.
-        </p>
+        <hr />
         <div id="project-container">
-          <div class="project-tile">
-            <a
-              class="project-link"
-              href="https://www.nhcarrigan.com/Project-Euler"
-            >
-              Project Euler - Challenges interpreted by FCC
-              <hr class="project-hr" />
-              <img class="project-image" src="./img/fcc.jpg" alt="FCC Logo" />
-            </a>
-            <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/Project-Euler"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
-          <div class="project-tile">
-            <a
-              class="project-link"
-              href="https://www.nhcarrigan.com/js-calculator"
-            >
-              JavaScript Calculator
-              <hr class="project-hr" />
-              <img
-                class="project-image"
-                src="./img/calculator.jpg"
-                alt="JavaScript Calculator Preview"
-              />
-            </a>
-            <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/js-calculator"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
-          <div class="project-tile">
-            <a
-              class="project-link"
-              href="https://www.nhcarrigan.com/Algebraic-Concepts/"
-            >
-              Algebraic Concepts - Documentation Page
-              <hr class="project-hr" />
-              <img
-                class="project-image"
-                src="./img/algebra.jpg"
-                alt="Algebraic Concepts Preview"
-              />
-            </a>
-            <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/Algebraic-Concepts"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
-          <div class="project-tile">
-            <a class="project-link" href="http://www.nhcarrigan.com/Pokedex/">
-              PokeDex App
-              <hr class="project-hr" />
-              <img
-                class="project-image"
-                src="./img/pokedex.jpg"
-                alt="Pokedex Preview"
-              />
-            </a>
-            <hr class="project-hr" />
-            <a class="project-link" href="https://github.com/nhcarrigan/Pokedex"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
-          <div class="project-tile">
-            <a
-              class="project-link"
-              href="https://www.nhcarrigan.com/Tic-Tac-Toe"
-              >TicTacToe Game
-              <hr class="project-hr" />
-              <img class="project-image" src="./img/ttt.jpg" alt="TicTacToe" />
-            </a>
-            <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/Tic-Tac-Toe"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
           <div class="project-tile">
             <a
               class="project-link"
@@ -229,68 +90,33 @@
             <a
               class="project-link"
               href="https://github.com/nhcarrigan/discord-bot"
-              ><button class="code-button">
+              ><p>
+                A Discord bot built on the discord.js library with TypeScript.
+                Includes a database connection to MongoDB, multiple API calls,
+                and a number of available features.
+              </p>
+              <button class="code-button">
                 <i class="fab fa-github"></i>View code
               </button></a
             >
           </div>
           <div class="project-tile">
-            <a
-              class="project-link"
-              href="http://www.nhcarrigan.com/Weather-App/"
-              >Weather App
+            <a class="project-link" href="http://www.nhcarrigan.com/Pokedex/">
+              PokeDex App
               <hr class="project-hr" />
               <img
                 class="project-image"
-                src="./img/weather.jpg"
-                alt="Weather App"
+                src="./img/pokedex.jpg"
+                alt="Pokedex Preview"
               />
             </a>
             <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/Weather-App"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
-          <div class="project-tile">
-            <a class="project-link" href="http://www.nhcarrigan.com/mtg-search"
-              >Magic: The Gathering - Card Search
-              <hr class="project-hr" />
-              <img
-                class="project-image"
-                src="./img/mtg.jpg"
-                alt="Magic Card Search"
-              />
-            </a>
-            <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/mtg-search"
-              ><button class="code-button">
-                <i class="fab fa-github"></i>View code
-              </button></a
-            >
-          </div>
-          <div class="project-tile">
-            <a
-              class="project-link"
-              href="http://www.nhcarrigan.com/mtg-element-battle"
-              >Magic: The Gathering - Element Battle
-              <hr class="project-hr" />
-              <img
-                class="project-image"
-                src="./img/mtg2.jpg"
-                alt="Magic Element Battle"
-              />
-            </a>
-            <hr class="project-hr" />
-            <a
-              class="project-link"
-              href="https://github.com/nhcarrigan/mtg-element-battle"
-              ><button class="code-button">
+            <a class="project-link" href="https://github.com/nhcarrigan/Pokedex"
+              ><p>
+                A basic webapp built with TypeScript. Fetches data from a
+                Pokemon API and renders it into a readable "card".
+              </p>
+              <button class="code-button">
                 <i class="fab fa-github"></i>View code
               </button></a
             >
@@ -312,7 +138,12 @@
             <a
               class="project-link"
               href="https://github.com/nhcarrigan/counting-cards"
-              ><button class="code-button">
+              ><p>
+                A basic webapp built with JavaScript. Offers three different
+                levels of difficulty for learning how to count cards in
+                BlackJack.
+              </p>
+              <button class="code-button">
                 <i class="fab fa-github"></i>View code
               </button></a
             >
@@ -333,7 +164,12 @@
             <a
               class="project-link"
               href="https://github.com/nhcarrigan/smash-a-bug"
-              ><button class="code-button">
+              ><p>
+                A "whack-a-mole" clone built with JavaScript. Uses logic to
+                determine when the player has successfully smashed a bug, tracks
+                when the goal is met.
+              </p>
+              <button class="code-button">
                 <i class="fab fa-github"></i>View code
               </button></a
             >
@@ -354,185 +190,30 @@
             <a
               class="project-link"
               href="https://github.com/nhcarrigan/text-adventure"
-              ><button class="code-button">
+            >
+              <p>
+                A text based adventure game modelled after the Choose Your Own
+                Adventure books. Built with only HTML and CSS.
+              </p>
+              <button class="code-button">
                 <i class="fab fa-github"></i>View code
               </button></a
             >
           </div>
         </div>
       </section>
-      <hr />
-      <section id="contribs">
-        <h1>Smaller Projects</h1>
-        <p>These are my smaller projects that I have not chosen to feature.</p>
-        <div id="project-table">
-          <ul id="project1">
-            <li>
-              <a
-                href="https://www.nhcarrigan.com/responsive-web-design/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Responsive Web Design Projects</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.nhcarrigan.com/mini-projects/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Mini-Projects</a
-              >
-            </li>
-          </ul>
-          <ul id="project2">
-            <li>
-              <a
-                href="https://www.nhcarrigan.com/front-end-libraries/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Front End Libraries Projects</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.nhcarrigan.com/react-test"
-                target="_blank"
-                rel="noopener noreferrer"
-                >React Experiments</a
-              >
-            </li>
-          </ul>
-          <ul id="project3">
-            <li>
-              <a
-                href="https://www.nhcarrigan.com/data-visualisation/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Data Visualisation Projects</a
-              >
-            </li>
-          </ul>
-        </div>
-        <hr />
-        <h1>Contributions</h1>
-        <p>
-          These are some of the projects that I did not create, but to which I
-          have made contributions.
-        </p>
-        <div id="contrib-table">
-          <ul id="contrib1">
-            <li>
-              <a
-                href="https://github.com/bradtaniguchi/discord-bot-test"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Discord Bot Test - Brad Taniguchi</a
-              >
-            </li>
-          </ul>
-          <ul id="contrib2">
-            <li>
-              <a
-                href="https://github.com/freeCodeCamp/freeCodeCamp"
-                target="_blank"
-                rel="noopener noreferrer"
-                >FreeCodeCamp Curriculum - FreeCodeCamp</a
-              >
-            </li>
-          </ul>
-          <ul id="contrib3">
-            <li>
-              <a
-                href="https://github.com/Twaha-Rahman/e-commercify"
-                target="_blank"
-                rel="noopener noreferrer"
-                >E-Commercify - Twaha Rahman</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-      <hr />
-      <section id="contact">
-        <h1>Social Media</h1>
-        <h2>Click the icons below to connect with me on another platform.</h2>
-        <p id="contact-links">
-          <a
-            href="Resume%202020.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Resume"
-            ><i class="fas fa-file"></i
-          ></a>
-          |
-          <a
-            href="https://forum.freecodecamp.org/u/nhcarrigan"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="FreeCodeCamp"
-            ><i class="fab fa-free-code-camp"></i
-          ></a>
-          |
-          <a
-            href="https://github.com/nhcarrigan"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="GitHub"
-            ><i class="fab fa-github-square"></i
-          ></a>
-          |
-          <a
-            href="https://www.facebook.com/nhcarrigan"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Facebook"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-          |
-          <a
-            href="https://www.linkedin.com/in/nhcarrigan/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="LinkedIn"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          |
-          <a
-            href="https://twitter.com/nhcarrigan"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Twitter"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          |
-          <a
-            href="https://steamcommunity.com/id/nhcarrigan/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Steam"
-            ><i class="fab fa-steam"></i
-          ></a>
-          |
-          <a
-            href="https://discord.gg/PHqDbkg"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Discord Server"
-            ><i class="fab fa-discord"></i
-          ></a>
-        </p>
-      </section>
     </main>
     <footer id="footer">
       <p id="footer-text">
-        &copy; 2020 Nicholas Carrigan | Profile Art &copy;
-        <a
-          class="project-link"
-          href="https://www.instagram.com/tbg_art/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >TBG Art</a
-        >
+        &copy; 2020 Nicholas Carrigan
+      </p>
+      <p>
+        <a class="nav-link" href="./views/projects.html">Projects</a> |
+        <a class="nav-link" href="./views/contribs.html">Contributions</a> |
+        <a class="nav-link" href="./views/certs.html">Certifications</a> |
+        <a class="nav-link" href="./views/connect.html">Connect</a> |
+        <a class="nav-link" href="https://contact.nhcarrigan.com">Contact</a> |
+        <a class="nav-link" href="https://blog.nhcarrigan.com">Blog</a>
       </p>
     </footer>
   </body>

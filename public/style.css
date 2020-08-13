@@ -70,19 +70,6 @@ hr.project-hr {
   border-style: solid;
 }
 
-#navbar {
-  background-color: #000000;
-  color: #ffffff;
-  height: 100%;
-  top: -5px;
-  left: -5px;
-  padding: 5px;
-  text-align: center;
-  position: fixed;
-  font-size: 18pt;
-  width: 200px;
-  display: none;
-}
 
 #hamburger {
   font-size: 24pt;
@@ -226,13 +213,13 @@ hr.project-hr {
 
 @media (min-width: 400px) {
   #project-container {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
   #contrib-table {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
   #project-table {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 }
 @media (min-width: 600px) {
