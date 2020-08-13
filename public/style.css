@@ -121,34 +121,6 @@ hr.project-hr {
   height: 100vh;
 }
 
-#project-container {
-  margin: 10px;
-  display: grid;
-  grid-gap: 10px;
-  font-size: 18pt;
-}
-
-#contribs {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/background3.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
-}
-
-#contrib-table {
-  margin: 10px;
-  display: grid;
-  grid-gap: 10px;
-  font-size: 18pt;
-}
 .project-tile {
   background-color: #000000;
   border-color: #dfc0fa;
@@ -180,24 +152,14 @@ hr.project-hr {
   #project-container {
     grid-template-columns: 1fr;
   }
-  #contrib-table {
-    grid-template-columns: 1fr;
-  }
-  #project-table {
-    grid-template-columns: 1fr;
-  }
 }
+
 @media (min-width: 600px) {
   #project-container {
     grid-template-columns: 1fr 1fr;
   }
-  #contrib-table {
-    grid-template-columns: 1fr 1fr;
-  }
-  #project-table {
-    grid-template-columns: 1fr 1fr;
-  }
 }
+
 @media (min-width: 800px) {
   #project-container {
     grid-template-columns: 1fr 1fr 1fr;
