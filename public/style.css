@@ -3,8 +3,9 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #3a3240;
   cursor: url("../img/triforce.cur"), auto;
+  margin: 0;
 }
 
 
@@ -86,22 +87,14 @@ hr.project-hr {
 }
 
 #welcome-section {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/background1.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
+  color: #dfc0fa;
   display: table-cell;
   vertical-align: top;
-  width: 100vw;
-  height: 100vh;
+  background-color: #3a3240
 }
 
 #languages {
-  color: #000000;
+  color: #dfc0fa;
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 32pt;
@@ -133,13 +126,15 @@ hr.project-hr {
   cursor: url("../img/pointer.cur"), auto;
 }
 
-#footer {
+#header {
   background-color: #000000;
   color: #ffffff;
-  margin: 0px;
-  padding: 0px;
   text-align: center;
   font-size: 18pt;
+}
+
+#header > p {
+  margin: 0;
 }
 
 @media (min-width: 400px) {
