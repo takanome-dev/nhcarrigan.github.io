@@ -3,19 +3,18 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #3a3240;
   cursor: url("../img/triforce.cur"), auto;
   text-align: center;
 }
 
 a {
-  color: #000000;
+  color: #dfc0fa;
   cursor: url("../img/pointer.cur"), auto;
 }
 
 a:hover {
-  color: #dfc0fa;
-  background-color: #000000;
+  color: yellow;
 }
 
 a.nav-link {
@@ -33,7 +32,7 @@ a.nav-link:hover {
 }
 #main {
   text-align: center;
-  background-color: black;
+  background-color: #3a3240;
   padding: 0px;
 }
 
@@ -46,14 +45,8 @@ p {
 }
 
 #contribs {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/background3.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #3a3240;
+  color: #dfc0fa;
   display: table-cell;
   vertical-align: top;
   width: 100vw;

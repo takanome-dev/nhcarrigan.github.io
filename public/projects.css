@@ -3,19 +3,18 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #3a3240;
   cursor: url("../img/triforce.cur"), auto;
   text-align: center;
 }
 
 a {
-  color: #000000;
+  color: #dfc0fa;
   cursor: url("../img/pointer.cur"), auto;
 }
 
 a:hover {
-  color: #dfc0fa;
-  background-color: #000000;
+  color: yellow;
 }
 
 a.nav-link {
@@ -55,14 +54,8 @@ ul {
 }
 
 #projects {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../img/background2.jpg");
-  background-size: 100% 100%;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #3a3240;
+  color: #dfc0fa;
   display: table-cell;
   vertical-align: top;
   width: 100vw;
@@ -79,14 +72,15 @@ ul {
 }
 
 .project > div {
-  border: 1px solid black;
+  border: 1px solid #dfc0fa;
 }
 
 .code-button {
   font-size: 24pt;
-  color: #000000;
+  color: #3a3240;
   background-color: #dfc0fa;
   margin-bottom: 5px;
+  cursor: url("../img/pointer.cur"), pointer;
 }
 #footer {
   background-color: #000000;
