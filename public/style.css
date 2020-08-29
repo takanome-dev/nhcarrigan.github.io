@@ -76,7 +76,7 @@ hr.project-hr {
 }
 
 #profile {
-  height: 200px;
+  max-height: 512px;
 }
 
 #contact-links {
