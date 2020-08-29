@@ -47,10 +47,7 @@ p {
 #contact {
   background-color: #3a3240;
   color: #dfc0fa ;
-  display: table-cell;
-  vertical-align: top;
-  width: 100vw;
-  height: 100vh;
+  margin: auto;
 }
 
 .current-page {
@@ -64,4 +61,8 @@ p {
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+
+#header > p {
+  margin: 0;
 }

@@ -5,6 +5,7 @@
 body {
   background-color: #3a3240;
   cursor: url("../img/triforce.cur"), auto;
+  margin: 0;
 }
 
 
@@ -89,8 +90,6 @@ hr.project-hr {
   color: #dfc0fa;
   display: table-cell;
   vertical-align: top;
-  width: 100vw;
-  height: 100vh;
   background-color: #3a3240
 }
 
@@ -132,6 +131,10 @@ hr.project-hr {
   color: #ffffff;
   text-align: center;
   font-size: 18pt;
+}
+
+#header > p {
+  margin: 0;
 }
 
 @media (min-width: 400px) {

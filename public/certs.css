@@ -40,6 +40,10 @@ a:hover {
   font-size: 18pt;
 }
 
+#header > p {
+  margin: 0;
+}
+
 .current-page {
   background-color: #dfc0fa !important;
   color: #000000;
