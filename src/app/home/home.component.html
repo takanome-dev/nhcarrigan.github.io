@@ -5,18 +5,24 @@
 </div>
 <h2>Technologies</h2>
 <ul class="tech">
-  <li *ngFor="let tech of techs">{{tech}}</li>
+  <li *ngFor="let tech of techs">{{ tech }}</li>
 </ul>
 <div class="feat-container">
   <div class="featured" *ngFor="let feat of featured">
-    <a href="{{ feat.liveUrl }}"
+    <a href="{{ feat.liveUrl }}" target="_blank" rel="noopener noreferrer"
       ><p>{{ feat.title }}</p></a
     >
     <img src="../../assets/img/{{ feat.image }}" />
-    <hr class="project-hr"/>
+    <hr class="project-hr" />
     <p>{{ feat.description }}</p>
     <button class="code-button">
-      <a href="{{ feat.codeUrl }}">View Code</a>
+      <a
+        class="code-link"
+        href="{{ feat.codeUrl }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        >View Code</a
+      >
     </button>
   </div>
 </div>

@@ -20,12 +20,18 @@ a {
   cursor: url("../../assets/img/pointer.cur"), auto;
 }
 
+.code-link {
+  color: #000000;
+}
+
 .tech {
   list-style: none;
   padding: 0;
 }
 
-
+.profile {
+  max-height: 200px;
+}
 
 .project-hr {
   border-color: #dfc0fa;
