@@ -17,12 +17,16 @@
 
 a {
   color: #ffffff;
-  cursor: url("../../assets/img/pointer.cur"), auto;
+}
+
+a:hover {
+  color: yellow
 }
 
 .code-link {
   color: #000000;
 }
+
 
 .tech {
   list-style: none;
@@ -44,6 +48,10 @@ a {
   color: #000000;
   background-color: #dfc0fa;
   margin-bottom: 5px;
+}
+
+.code-button:hover {
+  background-color: #000000;
 }
 
 @media (min-width: 400px) {

@@ -1,0 +1,22 @@
+* {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 24pt;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}

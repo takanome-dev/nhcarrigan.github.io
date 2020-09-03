@@ -1,1 +1,14 @@
-<p>connect works!</p>
+<div>
+  <h1>Connect with Me!</h1>
+  <p>
+    I am available on any of the below platforms. I look forward to the
+    opportunity to connect and work with you.
+  </p>
+  <ul>
+    <li *ngFor="let site of social">
+      <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer"
+        ><i class="{{ site.icon }}"></i> - {{ site.site }}</a
+      >
+    </li>
+  </ul>
+</div>

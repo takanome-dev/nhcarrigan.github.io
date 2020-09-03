@@ -4,5 +4,34 @@ body {
 }
 
 html {
-background-color: #000000
+background-color: #000000;
+cursor: url("/assets/img/triforce.cur"), auto;
+}
+
+* {
+  font-family: "VT323"
+}
+
+h1 {
+  font-size: 38pt;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+p {
+  font-size: 16pt;
+}
+
+nav {
+  font-size: 16pt;
+}
+
+ul {
+  font-size: 16pt;
+}
+
+a {
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
