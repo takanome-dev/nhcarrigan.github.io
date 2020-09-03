@@ -3,6 +3,10 @@
   <img class="profile" src="../../assets/img/profile.jpg" />
   <p *ngFor="let line of intro">{{ line }}</p>
 </div>
+<h2>Technologies</h2>
+<ul class="tech">
+  <li *ngFor="let tech of techs">{{tech}}</li>
+</ul>
 <div class="feat-container">
   <div class="featured" *ngFor="let feat of featured">
     <a href="{{ feat.liveUrl }}"

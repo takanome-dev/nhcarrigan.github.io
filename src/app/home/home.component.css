@@ -20,6 +20,13 @@ a {
   cursor: url("../../assets/img/pointer.cur"), auto;
 }
 
+.tech {
+  list-style: none;
+  padding: 0;
+}
+
+
+
 .project-hr {
   border-color: #dfc0fa;
   border-width: 1px;
