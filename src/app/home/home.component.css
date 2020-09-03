@@ -16,17 +16,23 @@
 }
 
 a {
-  color: #ffffff;
+  color: #dfc0fa;
 }
 
 a:hover {
-  color: yellow
+  color: yellow;
+  background-color: #000000;
 }
 
 .code-link {
   color: #000000;
+  font-size: 24pt;
+  text-decoration: none;
 }
 
+i {
+  font-size: 18pt;
+}
 
 .tech {
   list-style: none;
@@ -48,11 +54,13 @@ a:hover {
   color: #000000;
   background-color: #dfc0fa;
   margin-bottom: 5px;
+  padding: 0;
 }
 
-.code-button:hover {
+.code-button:hover{
   background-color: #000000;
 }
+
 
 @media (min-width: 400px) {
   .feat-container {
@@ -83,4 +91,3 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
-
