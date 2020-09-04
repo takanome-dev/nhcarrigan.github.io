@@ -1,7 +1,7 @@
 export const Social: SocialInt[] = [
   {
     site: 'Resume',
-    url: '../../assets/files/Resume 2020.pdf',
+    url: '../../assets/files/Resume.pdf',
     icon: 'fas fa-file',
   },
   {
