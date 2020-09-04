@@ -7,7 +7,7 @@ import { ContribInt, Contributions } from '../../assets/data/Contributions';
   styleUrls: ['./contributions.component.css'],
 })
 export class ContributionsComponent implements OnInit {
-  contribList = [];
+  contribList: ContribInt[] = [];
   constructor() {}
 
   ngOnInit(): void {
