@@ -1,6 +1,6 @@
 export interface FeaturedInt {
   title: string;
-  image: string; //TODO: Figure out formatting for link.
+  image: string;
   liveUrl: string;
   codeUrl: string;
   description: string;

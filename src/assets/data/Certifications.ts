@@ -4,6 +4,8 @@ export interface CertInt {
   url: string;
 }
 
+//TODO: Triplebyte offers cert - look in to that
+
 export const Fcc: CertInt[] = [
   {
     name: 'Quality Assurance V7',

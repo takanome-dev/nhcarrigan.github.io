@@ -1,0 +1,10 @@
+* {
+  text-align: center;
+}
+
+a {
+  color: #dfc0fa;
+}
+a:hover {
+  color: yellow;
+}
