@@ -26,7 +26,7 @@ export const Social: SocialInt[] = [
   },
   {
     site: 'Twitter',
-    url: 'https://www.linkedin.com/in/nhcarrigan',
+    url: 'https://www.twitter.com/nhcarrigan',
     icon: 'fab fa-twitter',
   },
   {
