@@ -1,0 +1,14 @@
+nav {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  color: #dfc0fa;
+}
+
+a {
+  color: #dfc0fa;
+}
+
+a:hover {
+  color: yellow
+}

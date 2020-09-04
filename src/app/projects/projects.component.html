@@ -1,0 +1,21 @@
+<h1>Projects</h1>
+<p>Text here</p>
+<div class="project" *ngFor="let project of projectList">
+  <div>
+    <h2>
+      <a href="{{ project.liveUrl }}">{{ project.title }}</a>
+    </h2>
+    <button class="code-button">
+      <a class="code-link" href="{{ project.codeUrl }}"
+        ><i class="fab fa-github"></i>View Code</a
+      >
+    </button>
+  </div>
+  <div>
+    <p>{{ project.description }}</p>
+    <p><u>Tech Stack</u></p>
+    <ul>
+      <li *ngFor="let tech of project.tech">{{ tech }}</li>
+    </ul>
+  </div>
+</div>
