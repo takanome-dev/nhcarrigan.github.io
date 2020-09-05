@@ -4,6 +4,9 @@
   <p *ngFor="let line of intro">{{ line }}</p>
 </div>
 <h2>Technologies</h2>
+<div>
+  <i *ngFor="let icon of icons" class="{{icon.icon}} tech-icon" title={{icon.name}}></i>
+</div>
 <ul class="tech">
   <li *ngFor="let tech of techs">{{ tech }}</li>
 </ul>

@@ -39,6 +39,11 @@ i {
   padding: 0;
 }
 
+.tech-icon {
+  margin: 0 10px;
+  font-size: 24pt;
+}
+
 .profile {
   max-height: 200px;
 }
