@@ -39,6 +39,11 @@ export const Social: SocialInt[] = [
     url: 'https://discord.gg/PHqDbkg',
     icon: 'fab fa-discord',
   },
+  {
+    site: 'Skype',
+    url: 'https://join.skype.com/invite/uiGryTXNEt26',
+    icon: 'fab fa-skype',
+  },
 ];
 
 export interface SocialInt {
