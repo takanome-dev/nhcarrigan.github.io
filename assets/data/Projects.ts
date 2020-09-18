@@ -76,4 +76,12 @@ export const Projects: ProjectInt[] = [
     tech: ['React', 'JavaScript', 'HTML', 'CSS'],
     description: 'A collection of smaller projects created using React.',
   },
+  {
+    title: 'Smash a Bug',
+    liveUrl: 'https://www.nhcarrigan.com/smash-a-bug',
+    codeUrl: 'https://github.com/nhcarrigan/counting-cards',
+    tech: ['JavaScript', 'HTML', 'CSS'],
+    description:
+      "A 'whack-a-mole' clone. Uses logic to determine when the player has successfully smashed a bug, tracks when the goal is met.",
+  },
 ];
