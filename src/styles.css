@@ -5,16 +5,18 @@ body {
 }
 
 html {
-background-color: #000000;
-cursor: url("/assets/img/triforce.cur"), auto;
+  background-image: url("./assets/img/back.jpg");
+  background-size: cover;
+  cursor: url("/assets/img/triforce.cur"), auto;
 }
 
 * {
-  font-family: "VT323"
+  font-family: "VT323";
 }
 
 h1 {
   font-size: 38pt;
+  margin-top: 0;
 }
 
 h2 {

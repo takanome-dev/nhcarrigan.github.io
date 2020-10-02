@@ -1,12 +1,14 @@
 nav {
   text-align: center;
-  background-color: black;
+  background-color:rgba(0, 0, 0, 0.5);
   margin: 0;
   color: #dfc0fa;
+  padding: 2vh 0;
 }
 
 a {
   color: #dfc0fa;
+  height: 1vh;
 }
 
 a:hover {
