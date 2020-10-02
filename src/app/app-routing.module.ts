@@ -5,6 +5,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContributionsComponent } from './contributions/contributions.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ConnectComponent } from './connect/connect.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'contributions', component: ContributionsComponent },
   { path: 'certifications', component: CertificationsComponent },
   { path: 'connect', component: ConnectComponent },
+  {path: 'calendar', component: CalendarComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 

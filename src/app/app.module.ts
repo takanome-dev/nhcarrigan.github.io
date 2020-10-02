@@ -10,6 +10,7 @@ import { CertificationsComponent } from './certifications/certifications.compone
 import { ConnectComponent } from './connect/connect.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from './header/header.component';
     CertificationsComponent,
     ConnectComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
