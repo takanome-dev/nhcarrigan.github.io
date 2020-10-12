@@ -13,6 +13,15 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "Twaha-Rahman",
+      "name": "Twaha Rahman",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39026437?v=4",
+      "profile": "https://github.com/Twaha-Rahman",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
