@@ -1,6 +1,6 @@
 # Main Webpage
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 These files make up my primary homepage.
@@ -26,6 +26,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.nhcarrigan.com"><img src="https://avatars1.githubusercontent.com/u/63889819?v=4" width="100px;" alt=""/><br /><sub><b>Nicholas Carrigan (he/him)</b></sub></a><br /><a href="#projectManagement-nhcarrigan" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/Twaha-Rahman"><img src="https://avatars1.githubusercontent.com/u/39026437?v=4" width="100px;" alt=""/><br /><sub><b>Twaha Rahman</b></sub></a><br /><a href="#infra-Twaha-Rahman" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="http://landonlloyd.github.io"><img src="https://avatars0.githubusercontent.com/u/65516863?v=4" width="100px;" alt=""/><br /><sub><b>Landon Lloyd</b></sub></a><br /><a href="https://github.com/nhcarrigan/nhcarrigan.github.io/commits?author=LandonLloyd" title="Documentation">📖</a></td>
   </tr>
 </table>
 
