@@ -22,6 +22,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "LandonLloyd",
+      "name": "Landon Lloyd",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65516863?v=4",
+      "profile": "http://landonlloyd.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
