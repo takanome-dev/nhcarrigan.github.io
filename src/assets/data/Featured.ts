@@ -9,10 +9,10 @@ export interface FeaturedInt {
 
 export const Featured: FeaturedInt[] = [
   {
-    title: 'Discord Bot',
+    title: 'BeccaBot',
     image: 'discord.jpg',
-    liveUrl: 'https://www.nhcarrigan.com/discord-bot-documentation',
-    codeUrl: 'https://github.com/nhcarrigan/discord-bot',
+    liveUrl: 'https://www.nhcarrigan.com/BeccaBot-documentation',
+    codeUrl: 'https://github.com/nhcarrigan/BeccaBot',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
     description:
       'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features.',
@@ -33,7 +33,7 @@ export const Featured: FeaturedInt[] = [
     codeUrl: 'https://github.com/nhcarrigan/social-db',
     tech: ['TypeScript', 'node.js', 'Express', 'MongoDB + Mongoose'],
     description:
-      "An app that allows users to create a virtual business card to share all of their social media profiles at one time.",
+      'An app that allows users to create a virtual business card to share all of their social media profiles at one time.',
   },
   {
     title: 'Counting Cards',
