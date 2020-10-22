@@ -11,6 +11,7 @@ import { ConnectComponent } from './connect/connect.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     ConnectComponent,
     FooterComponent,
     HeaderComponent,
-    CalendarComponent
+    CalendarComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
