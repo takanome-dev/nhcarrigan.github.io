@@ -1,0 +1,40 @@
+* {
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+.text-content {
+  max-width: 750px;
+  width: 90vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+input {
+  width: 20vw;
+  max-width: 400px;
+  background-color: #554163;
+  color: white;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 20vw;
+  max-width: 400px;
+  background-color: #554163;
+  color: white;
+}
+
+button {
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #554163;
+  color: white;
+}

@@ -6,6 +6,7 @@ import { ContributionsComponent } from './contributions/contributions.component'
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ConnectComponent } from './connect/connect.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'contributions', component: ContributionsComponent },
   { path: 'certifications', component: CertificationsComponent },
   { path: 'connect', component: ConnectComponent },
-  {path: 'calendar', component: CalendarComponent},
+  { path: 'calendar', component: CalendarComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
