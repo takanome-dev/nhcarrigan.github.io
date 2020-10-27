@@ -29,7 +29,7 @@ export const Featured: FeaturedInt[] = [
   {
     title: 'Social Media Database',
     image: 'social.png',
-    liveUrl: 'http://socialdb.ncarrigan.com',
+    liveUrl: 'http://socialdb.nhcarrigan.com',
     codeUrl: 'https://github.com/nhcarrigan/social-db',
     tech: ['TypeScript', 'node.js', 'Express', 'MongoDB + Mongoose'],
     description:
