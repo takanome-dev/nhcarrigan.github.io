@@ -9,11 +9,17 @@ These files make up my primary homepage.
 
 This page is currently deployed. [View the live website.](https://www.nhcarrigan.com)
 
-## Feedback, Bugs, and Contributions
+## Feedback and Bugs
 
-If you have feedback or a bug report, you can create a GitHub issue or [contact me directly](http://contact.nhcarrigan.com).
+If you have feedback or a bug report, please feel free to open a GitHub issue!
 
-If you would like to contribute to the project, you may create a Pull Request containing your proposed changes and I will review it as soon as I am able!
+## Contributing
+
+If you would like to contribute to the project, you may create a Pull Request containing your proposed changes and we will review it as soon as we are able! Please review our [contributing guidelines](CONTRIBUTING.md) first.
+
+## Code of Conduct
+
+Before interacting with our community, please read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Contributors ✨
 
