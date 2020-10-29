@@ -84,4 +84,20 @@ export const Projects: ProjectInt[] = [
     description:
       "A 'whack-a-mole' clone. Uses logic to determine when the player has successfully smashed a bug, tracks when the goal is met.",
   },
+  {
+    title: 'National Parks Search Page',
+    liveUrl: 'http://parks.nhcarrigan.com',
+    codeUrl: 'https://github.com/nhcarrigan/park-search',
+    tech: ['TypeScript', 'jQuery', 'HTML', 'CSS'],
+    description:
+      'Searches the National Parks API and returns formatted data. Uses TypeScript for the front and back end, and jQuery to send the AJAX requests.',
+  },
+  {
+    title: 'We Love Hacktoberfest',
+    liveUrl: 'https://discord.gg/hacktoberfest',
+    codeUrl: 'https://github.com/nhcarrigan/we-love-hacktoberfest',
+    tech: ['TypeScript', 'nodejs', 'discord.js'],
+    description:
+      'A Discord bot that responds to messages from or about specific people who play a role in making Hacktoberfest happen.',
+  },
 ];
