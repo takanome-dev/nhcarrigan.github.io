@@ -24,7 +24,7 @@ export const Featured: FeaturedInt[] = [
     codeUrl: 'https://github.com/nhcarrigan/forum',
     tech: ['TypeScript', 'MongoDB', 'node.js', 'Express', 'HTML', 'CSS'],
     description:
-      'A messaage board allowing users to create posts and reply to topics. Still in alpha.',
+      'A message board allowing users to create posts and reply to topics. Still in alpha.',
   },
   {
     title: 'Social Media Database',
@@ -45,12 +45,12 @@ export const Featured: FeaturedInt[] = [
       'Offers three different levels of difficulty for learning how to count cards in Blackjack.',
   },
   {
-    title: 'National Parks Search Page',
-    image: 'parks.jpg',
-    liveUrl: 'http://parks.nhcarrigan.com',
-    codeUrl: 'https://github.com/nhcarrigan/park-search',
-    tech: ['TypeScript', 'jQuery', 'HTML', 'CSS'],
+    title: 'TSProGen',
+    image: 'tsprogen.png',
+    liveUrl: 'https://www.npmjs.com/package/tsprogen',
+    codeUrl: 'https://github.com/nhcarrigan/TSProGen',
+    tech: ['TypeScript', 'node'],
     description:
-      'Searches the National Parks API and returns formatted data. Uses TypeScript for the front and back end, and jQuery to send the AJAX requests.',
+      'A command-line interface tool for generating the initial file structure of a TypeScript node.js project.',
   },
 ];
