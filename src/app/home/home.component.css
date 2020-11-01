@@ -57,6 +57,7 @@ i {
 
 .profile {
   max-height: 200px;
+  border-radius: 50%;
 }
 
 .project-hr {
