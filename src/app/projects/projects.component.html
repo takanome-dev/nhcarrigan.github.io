@@ -1,12 +1,21 @@
 <div class="text-content">
-<h1>Projects</h1>
-<p>These are some of the other projects I have built.</p>
+  <h1>Projects</h1>
+  <p>These are some of the other projects I have built.</p>
 </div>
 <div class="project" *ngFor="let project of projectList">
   <div>
     <h2>
-      <a href="{{ project.liveUrl }}">{{ project.title }}</a>
+      {{ project.title }}
     </h2>
+    <button class="code-button">
+      <a
+        class="code-link"
+        href="{{ project.liveUrl }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fas fa-play-circle"></i>View Project</a
+      >
+    </button>
     <button class="code-button">
       <a class="code-link" href="{{ project.codeUrl }}"
         ><i class="fab fa-github"></i>View Code</a
