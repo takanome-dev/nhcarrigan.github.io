@@ -77,6 +77,9 @@ i {
   background-color: #000000;
 }
 
+.feat-title {
+  font-size: 20pt;
+}
 
 @media (min-width: 400px) {
   .feat-container {
