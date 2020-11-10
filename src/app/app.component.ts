@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
-
-declare let gtag: Function;
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,13 +8,5 @@ declare let gtag: Function;
 })
 export class AppComponent {
   title = 'Nicholas Carrigan';
-  constructor(public router: Router) {
-    this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd) {
-        gtag('config', 'UA-176870980-1', {
-          'page-path': event.urlAfterRedirects,
-        });
-      }
-    });
-  }
+  constructor(public router: Router) {}
 }
