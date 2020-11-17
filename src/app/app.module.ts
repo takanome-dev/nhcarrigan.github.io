@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     HeaderComponent,
     CalendarComponent,
-    ContactComponent
+    ContactComponent,
+    SponsorsComponent
   ],
   imports: [
     BrowserModule,
