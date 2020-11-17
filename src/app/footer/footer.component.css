@@ -8,6 +8,13 @@ p {
   height: 1vh;
 }
 
-#art-credit {
+a {
   color: #dfc0fa;
+  transition: all .5s ease-in-out;
+  height: 1vh;
+}
+
+a:hover {
+  color: #3a3240;
+  background-color: #dfc0fa;
 }

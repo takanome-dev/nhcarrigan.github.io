@@ -24,21 +24,17 @@
   border-width: 5px;
   border-style: solid;
   color: #dfc0fa;
+  padding-bottom: 10px;
 }
 
 a {
   color: #dfc0fa;
+  transition: all .5s ease-in-out;
 }
 
 a:hover {
-  color: yellow;
-  background-color: #000000;
-}
-
-.code-link {
-  color: #000000;
-  font-size: 24pt;
-  text-decoration: none;
+  color: #3a3240;
+  background-color: #dfc0fa;
 }
 
 i {
@@ -66,16 +62,19 @@ i {
   border-style: solid;
 }
 
-.code-button {
-  font-size: 24pt;
-  color: #000000;
+.custom-btn {
+  padding: 5px;
+  border: 2px solid #3a3240;
+  border-radius: 10px;
+  color: #3a3240;
   background-color: #dfc0fa;
-  margin-bottom: 5px;
-  padding: 0;
+  transition: all .5s ease-in-out;
 }
 
-.code-button:hover{
-  background-color: #000000;
+.custom-btn:hover {
+  color: #dfc0fa;
+  background-color: #3a3240;
+  border: 2px solid #dfc0fa;
 }
 
 .feat-title {
