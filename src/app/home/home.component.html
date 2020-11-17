@@ -24,24 +24,20 @@
     <p>{{ feat.description }}</p>
     <p>Tech Stack: {{ feat.tech.join(", ") }}</p>
     <div class="button-cont">
-      <button class="code-button">
         <a
-          class="code-link"
+          class="custom-btn"
           href="{{ feat.liveUrl }}"
           target="_blank"
           rel="noopener noreferrer"
           ><i class="fas fa-play-circle"></i>View Project</a
         >
-      </button>
-      <button class="code-button">
         <a
-          class="code-link"
+          class="custom-btn"
           href="{{ feat.codeUrl }}"
           target="_blank"
           rel="noopener noreferrer"
           ><i class="fab fa-github"></i>View Code</a
         >
-      </button>
     </div>
   </div>
 </div>

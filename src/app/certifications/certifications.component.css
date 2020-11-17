@@ -19,10 +19,12 @@ ul {
 
 a {
   color: #dfc0fa;
+  transition: all .5s ease-in-out;
 }
 
 a:hover {
-  color: yellow;
+  color: #3a3240;
+  background-color: #dfc0fa;
 }
 
 li {

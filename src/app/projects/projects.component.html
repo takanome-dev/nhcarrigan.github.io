@@ -7,20 +7,16 @@
     <h2>
       {{ project.title }}
     </h2>
-    <button class="code-button">
       <a
-        class="code-link"
+        class="custom-btn"
         href="{{ project.liveUrl }}"
         target="_blank"
         rel="noopener noreferrer"
         ><i class="fas fa-play-circle"></i>View Project</a
       >
-    </button>
-    <button class="code-button">
-      <a class="code-link" href="{{ project.codeUrl }}"
+      <a class="custom-btn" href="{{ project.codeUrl }}"
         ><i class="fab fa-github"></i>View Code</a
       >
-    </button>
   </div>
   <div>
     <p>{{ project.description }}</p>
