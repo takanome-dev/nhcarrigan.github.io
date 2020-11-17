@@ -36,7 +36,7 @@ export const Social: SocialInt[] = [
   },
   {
     site: 'Discord Server',
-    url: 'https://discord.gg/PHqDbkg',
+    url: 'https://discord.gg/yMBWgETTJu',
     icon: 'fab fa-discord',
   },
   {
