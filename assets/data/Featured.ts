@@ -9,10 +9,10 @@ export interface FeaturedInt {
 
 export const Featured: FeaturedInt[] = [
   {
-    title: 'BeccaBot',
+    title: 'Becca Lyria',
     image: 'discord.jpg',
-    liveUrl: 'https://www.nhcarrigan.com/BeccaBot-documentation',
-    codeUrl: 'https://github.com/nhcarrigan/BeccaBot',
+    liveUrl: 'https://www.nhcarrigan.com/Becca-Lyria-documentation',
+    codeUrl: 'https://github.com/nhcarrigan/Becca-Lyria',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
     description:
       'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features.',
