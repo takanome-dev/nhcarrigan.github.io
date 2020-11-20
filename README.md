@@ -1,9 +1,9 @@
-# Main Webpage
+# nhcarrigan's Portfolio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-These files make up my primary homepage.
+This is the repository for my home page.
 
 ## Live Version
 
