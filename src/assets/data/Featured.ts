@@ -11,7 +11,7 @@ export const Featured: FeaturedInt[] = [
   {
     title: 'Becca Lyria',
     image: 'discord.jpg',
-    liveUrl: 'https://www.nhcarrigan.com/Becca-Lyria-documentation',
+    liveUrl: 'https://beccalyria.nhcarrigan.com',
     codeUrl: 'https://github.com/nhcarrigan/Becca-Lyria',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
     description:
