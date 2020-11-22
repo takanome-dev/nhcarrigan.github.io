@@ -8,6 +8,22 @@ export interface ProjectInt {
 
 export const Projects: ProjectInt[] = [
   {
+    title: 'Rosalia Nightsong',
+    liveUrl: 'https://rosalianightsong.nhcarrigan.com',
+    codeUrl: 'https://github.com/nhcarrigan/Rosalia-Nightsong',
+    tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
+    description:
+      'A modular event bot for my Discord server, with events that can be swapped out on the fly through an environment variable. Documentation page built with Angular.',
+  },
+  {
+    title: 'We Love Hacktoberfest',
+    liveUrl: 'https://discord.gg/hacktoberfest',
+    codeUrl: 'https://github.com/nhcarrigan/we-love-hacktoberfest',
+    tech: ['TypeScript', 'nodejs', 'discord.js'],
+    description:
+      'A Discord bot that responds to messages from or about specific people who play a role in making Hacktoberfest happen.',
+  },
+  {
     title: 'Tour of Heroes',
     liveUrl: 'https://www.nhcarrigan.com/angular-tour-of-heroes',
     codeUrl: 'https://github.com/nhcarrigan/angular-tour-of-heroes',
@@ -91,13 +107,5 @@ export const Projects: ProjectInt[] = [
     tech: ['TypeScript', 'jQuery', 'HTML', 'CSS'],
     description:
       'Searches the National Parks API and returns formatted data. Uses TypeScript for the front and back end, and jQuery to send the AJAX requests.',
-  },
-  {
-    title: 'We Love Hacktoberfest',
-    liveUrl: 'https://discord.gg/hacktoberfest',
-    codeUrl: 'https://github.com/nhcarrigan/we-love-hacktoberfest',
-    tech: ['TypeScript', 'nodejs', 'discord.js'],
-    description:
-      'A Discord bot that responds to messages from or about specific people who play a role in making Hacktoberfest happen.',
   },
 ];
