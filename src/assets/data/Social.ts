@@ -35,11 +35,6 @@ export const Social: SocialInt[] = [
     icon: 'fab fa-steam',
   },
   {
-    site: 'Discord Server',
-    url: 'https://discord.gg/yMBWgETTJu',
-    icon: 'fab fa-discord',
-  },
-  {
     site: 'Skype',
     url: 'https://join.skype.com/invite/uiGryTXNEt26',
     icon: 'fab fa-skype',
