@@ -35,10 +35,10 @@ export const Social: SocialInt[] = [
     icon: 'fab fa-steam',
   },
   {
-    site: 'Skype',
-    url: 'https://join.skype.com/invite/uiGryTXNEt26',
-    icon: 'fab fa-skype',
-  },
+    site: 'Keybase',
+    url: 'https://keybase.io/nhcarrigan',
+    icon: 'fab fa-keybase'
+  }
 ];
 
 export interface SocialInt {
