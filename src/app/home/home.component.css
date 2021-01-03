@@ -51,11 +51,6 @@ i {
   font-size: 24pt;
 }
 
-.profile {
-  max-height: 200px;
-  border-radius: 50%;
-}
-
 .project-hr {
   border-color: #dfc0fa;
   border-width: 1px;

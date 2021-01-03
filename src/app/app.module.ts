@@ -8,7 +8,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContributionsComponent } from './contributions/contributions.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ConnectComponent } from './connect/connect.component';
-import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
@@ -23,7 +22,6 @@ import { ToggleButtonComponent } from './header/toggle-button/toggle-button.comp
     ContributionsComponent,
     CertificationsComponent,
     ConnectComponent,
-    FooterComponent,
     HeaderComponent,
     CalendarComponent,
     ContactComponent,
