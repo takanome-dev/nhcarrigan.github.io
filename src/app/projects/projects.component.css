@@ -54,6 +54,9 @@ ul {
   color: #3a3240;
   background-color: #dfc0fa;
   transition: all .5s ease-in-out;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .custom-btn:hover {
