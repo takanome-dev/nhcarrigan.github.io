@@ -60,3 +60,9 @@ ul {
   background-color: #3a3240;
   border: 2px solid #dfc0fa;
 }
+
+.project-image {
+  max-width: 200px;
+  display: block;
+  margin: 20px auto;
+}

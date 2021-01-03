@@ -1,111 +1,56 @@
 export interface ProjectInt {
   title: string;
+  image: string;
   liveUrl: string;
   codeUrl: string;
-  tech: string[];
   description: string;
+  tech: string[];
 }
 
 export const Projects: ProjectInt[] = [
   {
-    title: 'Rosalia Nightsong',
-    liveUrl: 'https://rosalianightsong.nhcarrigan.com',
-    codeUrl: 'https://github.com/nhcarrigan/Rosalia-Nightsong',
+    title: 'Becca Lyria',
+    image: 'project1.jpg',
+    liveUrl: 'https://beccalyria.nhcarrigan.com',
+    codeUrl: 'https://github.com/nhcarrigan/Becca-Lyria',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
     description:
-      'A modular event bot for my Discord server, with events that can be swapped out on the fly through an environment variable. Documentation page built with Angular.',
+      'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features. Documentation page built with Angular.',
   },
   {
-    title: 'We Love Hacktoberfest',
-    liveUrl: 'https://discord.gg/hacktoberfest',
-    codeUrl: 'https://github.com/nhcarrigan/we-love-hacktoberfest',
-    tech: ['TypeScript', 'nodejs', 'discord.js'],
+    title: 'Message Board',
+    image: 'project2.jpg',
+    liveUrl: 'http://forum.nhcarrigan.com',
+    codeUrl: 'https://github.com/nhcarrigan/forum',
+    tech: ['TypeScript', 'MongoDB', 'node.js', 'Express', 'HTML', 'CSS'],
     description:
-      'A Discord bot that responds to messages from or about specific people who play a role in making Hacktoberfest happen.',
+      'A message board allowing users to create posts and reply to topics. Still in alpha.',
   },
   {
-    title: 'Tour of Heroes',
-    liveUrl: 'https://www.nhcarrigan.com/angular-tour-of-heroes',
-    codeUrl: 'https://github.com/nhcarrigan/angular-tour-of-heroes',
-    tech: ['Angular', 'TypeScript', 'HTML', 'CSS'],
-    description: 'My first Angular app!',
-  },
-  {
-    title: 'Pokedex',
-    liveUrl: 'https://www.nhcarrigan.com/Pokedex',
-    codeUrl: 'https://github.com/nhcarrigan/Pokedex',
-    tech: ['TypeScript', 'HTML', 'CSS'],
+    title: 'Social Media Database',
+    image: 'project3.png',
+    liveUrl: 'http://socialdb.nhcarrigan.com',
+    codeUrl: 'https://github.com/nhcarrigan/social-db',
+    tech: ['TypeScript', 'node.js', 'Express', 'MongoDB + Mongoose'],
     description:
-      'A Pokemon themed web-app. Connects to an API to fetch data and render it in a readable format.',
+      'An app that allows users to create a virtual business card to share all of their social media profiles at one time.',
   },
   {
-    title: 'Tic-Tac-Toe',
-    liveUrl: 'https://www.nhcarrigan.com/Tic-Tac-Toe',
-    codeUrl: 'https://github.com/nhcarrigan/Tic-Tac-Toe',
-    tech: ['TypeScript', 'HTML', 'CSS'],
-    description:
-      'A Tic-Tac-Toe game. Basic logic has been implemented to try to prevent the player from winning.',
-  },
-  {
-    title: 'Weather App',
-    liveUrl: 'https://www.nhcarrigan.com/Weather-App',
-    codeUrl: 'https://github.com/nhcarrigan/Weather-App',
-    tech: ['JavaScript', 'HTML', 'CSS'],
-    description:
-      'A weather app. Allows the user to fetch their weather based on location or by inputting coordinates.',
-  },
-  {
-    title: 'Magic: The Gathering - Card Search',
-    liveUrl: 'https://www.nhcarrigan.com/mtg-search',
-    codeUrl: 'https://github.com/nhcarrigan/mtg-search',
-    tech: ['JavaScript', 'HTML', 'CSS'],
-    description:
-      'A Magic: The Gathering themed web app. Allows the user to search for a card by name, filtered optionally by card set.',
-  },
-  {
-    title: 'Magic: The Gathering - Element Battle',
-    liveUrl: 'https://www.nhcarrigan.com/mtg-element-battle',
-    codeUrl: 'https://github.com/nhcarrigan/mtg-element-battle',
-    tech: ['TypeScript', 'HTML', 'CSS'],
-    description:
-      "A Magic: The Gathering themed 'Rock Paper Scissors' clone. Determines the winner of each round and tracks the scores.",
-  },
-  {
-    title: 'Choose Your Own Adventure',
-    liveUrl: 'https://www.nhcarrigan.com/text-adventure',
-    codeUrl: 'https://github.com/nhcarrigan/text-adventure',
-    tech: ['HTML', 'CSS'],
-    description:
-      'A text-themed web app designed to simulate the experience of reading a Choose Your Own Adventure book.',
-  },
-  {
-    title: 'Mini Projects',
-    liveUrl: 'https://www.nhcarrigan.com/mini-projects',
-    codeUrl: 'https://github.com/nhcarrigan/mini-projects',
-    tech: ['JavaScript', 'HTML', 'CSS'],
-    description: 'A collection of various smaller web-apps and projects',
-  },
-  {
-    title: 'React Test',
-    liveUrl: 'https://www.nhcarrigan.com/react-test',
-    codeUrl: 'https://github.com/nhcarrigan/react-test',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
-    description: 'A collection of smaller projects created using React.',
-  },
-  {
-    title: 'Smash a Bug',
-    liveUrl: 'https://www.nhcarrigan.com/smash-a-bug',
+    title: 'Counting Cards',
+    image: 'project4.jpg',
+    liveUrl: 'https://www.nhcarrigan.com/counting-cards',
     codeUrl: 'https://github.com/nhcarrigan/counting-cards',
     tech: ['JavaScript', 'HTML', 'CSS'],
     description:
-      "A 'whack-a-mole' clone. Uses logic to determine when the player has successfully smashed a bug, tracks when the goal is met.",
+      'Offers three different levels of difficulty for learning how to count cards in Blackjack.',
   },
   {
-    title: 'National Parks Search Page',
-    liveUrl: 'http://parks.nhcarrigan.com',
-    codeUrl: 'https://github.com/nhcarrigan/park-search',
-    tech: ['TypeScript', 'jQuery', 'HTML', 'CSS'],
+    title: 'TSProGen',
+    image: 'project5.png',
+    liveUrl: 'https://www.npmjs.com/package/tsprogen',
+    codeUrl: 'https://github.com/nhcarrigan/TSProGen',
+    tech: ['TypeScript', 'node'],
     description:
-      'Searches the National Parks API and returns formatted data. Uses TypeScript for the front and back end, and jQuery to send the AJAX requests.',
+      'A command-line interface tool for generating the initial file structure of a TypeScript node.js project.',
   },
 ];

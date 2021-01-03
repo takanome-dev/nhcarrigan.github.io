@@ -1,22 +1,24 @@
 <div class="text-content">
   <h1>Projects</h1>
-  <p>These are some of the other projects I have built.</p>
+  <p>These are my top personal projects. All of my projects are open source and can be viewed on my GitHub account.</p>
 </div>
 <div class="project" *ngFor="let project of projectList">
   <div>
     <h2>
       {{ project.title }}
     </h2>
-      <a
-        class="custom-btn"
-        href="{{ project.liveUrl }}"
-        target="_blank"
-        rel="noopener noreferrer"
-        ><i class="fas fa-play-circle"></i>View Project</a
-      >
-      <a class="custom-btn" href="{{ project.codeUrl }}"
-        ><i class="fab fa-github"></i>View Code</a
-      >
+    <img class="project-image" src="../../assets/img/{{ project.image }}" />
+    <a
+      class="custom-btn"
+      href="{{ project.liveUrl }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fas fa-play-circle"></i>View Project</a
+    >
+    <a class="custom-btn" href="{{ project.codeUrl }}"
+      ><i class="fab fa-github"></i>View Code</a
+    >
   </div>
   <div>
     <p>{{ project.description }}</p>
