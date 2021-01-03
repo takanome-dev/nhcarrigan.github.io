@@ -44,6 +44,7 @@ ul {
 
 .project > div {
   border: 5px solid #dfc0fa;
+  padding-bottom: 10px;
 }
 
 .custom-btn {
