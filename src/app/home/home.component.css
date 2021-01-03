@@ -12,21 +12,6 @@
   margin-top: 10px;
 }
 
-.feat-container {
-  display: grid;
-  column-gap: 10px;
-}
-
-.featured {
-  background-color: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(10px);
-  border-color: #dfc0fa;
-  border-width: 5px;
-  border-style: solid;
-  color: #dfc0fa;
-  padding-bottom: 10px;
-}
-
 a {
   color: #dfc0fa;
   transition: all .5s ease-in-out;
@@ -49,11 +34,6 @@ i {
 .tech-icon {
   margin: 0 10px;
   font-size: 24pt;
-}
-
-.profile {
-  max-height: 200px;
-  border-radius: 50%;
 }
 
 .project-hr {

@@ -1,17 +1,51 @@
-<nav>
-  <a routerLink="/home">Home</a> | <a routerLink="/projects">Projects</a> |
-  <a routerLink="/contributions">Contributions</a> |
-  <a routerLink="/certifications">Certifications</a> |
-  <a routerLink="/connect">Connect</a> |
-  <a routerLink="/calendar">Calendar</a> |
-  <a routerLink="/contact">Contact</a> |
-  <a href="http://chat.nhcarrigan.com" target="_blank" rel="noopener noreferrer"
-    >Chat</a
-  >
-  |
-  <a href="http://blog.nhcarrigan.com" target="_blank" rel="noopener noreferrer"
-    >Blog</a
-  >
-  |
-  <a routerLink="/sponsors">Sponsors</a>
+<app-toggle-button></app-toggle-button>
+<nav id="sidebar" [ngClass]="{ hidden: toggleService.hideSideNav }">
+  <h1 class="header-text">Nicholas Carrigan</h1>
+  <img class="profile" src="../../assets/img/profile.jpg" />
+  <hr />
+  <p>Drinkin' coffee, boppin' tunes, bangin' code.</p>
+  <hr />
+  <p><a routerLink="/home" routerLinkActive="active-link">Home</a></p>
+  <p><a routerLink="/projects" routerLinkActive="active-link">Projects</a></p>
+  <p><a routerLink="/certifications" routerLinkActive="active-link">Certifications</a></p>
+  <p><a routerLink="/connect" routerLinkActive="active-link">Connect</a></p>
+  <p><a routerLink="/calendar" routerLinkActive="active-link">Calendar</a></p>
+  <p><a routerLink="/contact" routerLinkActive="active-link">Contact</a></p>
+  <p>
+    <a
+      href="http://chat.nhcarrigan.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Chat</a
+    >
+  </p>
+  <p>
+    <a
+      href="http://blog.nhcarrigan.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Blog</a
+    >
+  </p>
+  <p><a routerLink="/sponsors">Sponsors</a></p>
+  <hr />
+  <p>&copy; 2021</p>
+  <p>
+    <a
+      href="https://keybase.io/nhcarrigan"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-keybase"></i> nhcarrigan
+    </a>
+  </p>
+  <p>
+    <a
+      id="art-credit"
+      href="https://www.instagram.com/moonlightkcreations/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Art by Moonlight</a
+    >
+  </p>
 </nav>

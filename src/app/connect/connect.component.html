@@ -6,8 +6,8 @@
   </p>
   <ul>
     <li *ngFor="let site of social">
-      <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer"
-        ><i class="{{ site.icon }}"></i> - {{ site.site }}</a
+      <a class="custom-btn" href="{{ site.url }}" target="_blank" rel="noopener noreferrer"
+        ><i class="{{ site.icon }}"></i> {{ site.site }}</a
       >
     </li>
   </ul>

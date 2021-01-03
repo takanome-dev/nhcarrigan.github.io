@@ -44,6 +44,7 @@ ul {
 
 .project > div {
   border: 5px solid #dfc0fa;
+  padding-bottom: 10px;
 }
 
 .custom-btn {
@@ -59,4 +60,10 @@ ul {
   color: #dfc0fa;
   background-color: #3a3240;
   border: 2px solid #dfc0fa;
+}
+
+.project-image {
+  max-width: 200px;
+  display: block;
+  margin: 20px auto;
 }

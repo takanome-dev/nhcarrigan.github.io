@@ -1,12 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   margin: 0;
-  min-height: 80vh;
 }
 
 html {
-  background-image: url("./assets/img/back.png");
-  background-size: cover;
+  background-color: #3a3240;
   cursor: url("/assets/img/triforce.cur"), auto;
 }
 

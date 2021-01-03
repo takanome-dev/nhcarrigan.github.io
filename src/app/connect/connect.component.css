@@ -10,6 +10,7 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 ul {
@@ -19,15 +20,24 @@ ul {
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 a {
-  color: #dfc0fa;
+  text-decoration: none;
+}
+
+.custom-btn {
+  padding: 5px;
+  border: 2px solid #3a3240;
+  border-radius: 10px;
+  color: #3a3240;
+  background-color: #dfc0fa;
   transition: all .5s ease-in-out;
 }
 
-a:hover {
-  color: #3a3240;
-  background-color: #dfc0fa;
+.custom-btn:hover {
+  color: #dfc0fa;
+  background-color: #3a3240;
+  border: 2px solid #dfc0fa;
 }
