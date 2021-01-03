@@ -35,3 +35,8 @@ a:hover {
 hr {
   border: 2px solid #aea8d3;
 }
+
+.active-link {
+  color: #3a3240;
+  background-color: #dfc0fa;
+}
