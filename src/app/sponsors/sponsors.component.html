@@ -32,43 +32,35 @@
     </a>
   </p>
   <h2>Platinum Sponsors! ($100/month)</h2>
-  <p>
-    None yet...
-    <a
-      href="https://github.com/sponsors/nhcarrigan/sponsorships?sponsor=nhcarrigan&tier_id=47504"
-      target="_blank"
-      rel="noreferrer noopener"
-      >Be the first?</a
-    >
-  </p>
+  <ul>
+    <li *ngFor="let sponsor of platinum">
+      <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
+        {{sponsor.name}} - {{sponsor.date}}
+      </a>
+    </li>
+  </ul>
   <h2>Gold Sponsors! ($50/month)</h2>
-  <p>
-    None yet...
-    <a
-      href="https://github.com/sponsors/nhcarrigan/sponsorships?sponsor=nhcarrigan&tier_id=47503"
-      target="_blank"
-      rel="noreferrer noopener"
-      >Be the first?</a
-    >
-  </p>
+  <ul>
+    <li *ngFor="let sponsor of gold">
+      <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
+        {{sponsor.name}} - {{sponsor.date}}
+      </a>
+    </li>
+  </ul>
   <h2>Silver Sponsors! ($25/month)</h2>
-  <p>
-    None yet...
-    <a
-      href="https://github.com/sponsors/nhcarrigan/sponsorships?sponsor=nhcarrigan&tier_id=47502"
-      target="_blank"
-      rel="noreferrer noopener"
-      >Be the first?</a
-    >
-  </p>
+  <ul>
+    <li *ngFor="let sponsor of silver">
+      <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
+        {{sponsor.name}} - {{sponsor.date}}
+      </a>
+    </li>
+  </ul>
   <h2>Bronze Sponsors! ($10/month)</h2>
-  <p>
-    None yet...
-    <a
-      href="https://github.com/sponsors/nhcarrigan/sponsorships?sponsor=nhcarrigan&tier_id=47501"
-      target="_blank"
-      rel="noreferrer noopener"
-      >Be the first?</a
-    >
-  </p>
+  <ul>
+    <li *ngFor="let sponsor of bronze">
+      <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
+        {{sponsor.name}} - {{sponsor.date}}
+      </a>
+    </li>
+  </ul>
 </div>
