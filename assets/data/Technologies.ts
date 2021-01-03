@@ -8,6 +8,7 @@ export const Technologies = [
   'TypeScript',
   'Python',
   'Angular',
+  'React',
 ];
 
 export const Icons: IconInt[] = [
@@ -17,7 +18,8 @@ export const Icons: IconInt[] = [
   {name: "node.js", icon: "fab fa-node"},
   {name: "git", icon: "fab fa-git-alt"},
   {name: "Python", icon: "fab fa-python"},
-  {name: "Angular", icon: "fab fa-angular"}
+  {name: "Angular", icon: "fab fa-angular"},
+  {name: "React", icon: "fab fa-react"},
 ]
 
 export interface IconInt {
