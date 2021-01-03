@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ContributionsComponent } from './contributions/contributions.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ConnectComponent } from './connect/connect.component';
 import { HeaderComponent } from './header/header.component';
@@ -19,7 +18,6 @@ import { ToggleButtonComponent } from './header/toggle-button/toggle-button.comp
     AppComponent,
     HomeComponent,
     ProjectsComponent,
-    ContributionsComponent,
     CertificationsComponent,
     ConnectComponent,
     HeaderComponent,
