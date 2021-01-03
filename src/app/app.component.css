@@ -1,6 +1,10 @@
 body {
-  margin: 0;
+  margin-left: 250px;
   padding: 0;
   color: #dfc0fa;
   min-height: 88vh;
+}
+
+.expand {
+  margin-left: 0;
 }

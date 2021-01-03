@@ -1,17 +1,33 @@
-<nav>
-  <a routerLink="/home">Home</a> | <a routerLink="/projects">Projects</a> |
-  <a routerLink="/contributions">Contributions</a> |
-  <a routerLink="/certifications">Certifications</a> |
-  <a routerLink="/connect">Connect</a> |
-  <a routerLink="/calendar">Calendar</a> |
-  <a routerLink="/contact">Contact</a> |
-  <a href="http://chat.nhcarrigan.com" target="_blank" rel="noopener noreferrer"
-    >Chat</a
-  >
-  |
-  <a href="http://blog.nhcarrigan.com" target="_blank" rel="noopener noreferrer"
-    >Blog</a
-  >
-  |
-  <a routerLink="/sponsors">Sponsors</a>
+<app-toggle-button></app-toggle-button>
+<nav id="sidebar" [ngClass]="{ hidden: toggleService.hideSideNav }">
+  <h1 class="header-text">Nicholas Carrigan</h1>
+  <img class="profile" src="../../assets/img/profile.jpg" />
+  <hr />
+  <p>MEANR stack developer @</p>
+  <p>- freeCodeCamp</p>
+  <hr />
+  <p><a routerLink="/home">Home</a></p>
+  <p><a routerLink="/projects">Projects</a></p>
+  <p><a routerLink="/contributions">Contributions</a></p>
+  <p><a routerLink="/certifications">Certifications</a></p>
+  <p><a routerLink="/connect">Connect</a></p>
+  <p><a routerLink="/calendar">Calendar</a></p>
+  <p><a routerLink="/contact">Contact</a></p>
+  <p>
+    <a
+      href="http://chat.nhcarrigan.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Chat</a
+    >
+  </p>
+  <p>
+    <a
+      href="http://blog.nhcarrigan.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Blog</a
+    >
+  </p>
+  <p><a routerLink="/sponsors">Sponsors</a></p>
 </nav>

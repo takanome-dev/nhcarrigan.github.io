@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { ToggleButtonComponent } from './header/toggle-button/toggle-button.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
     HeaderComponent,
     CalendarComponent,
     ContactComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    ToggleButtonComponent
   ],
   imports: [
     BrowserModule,
