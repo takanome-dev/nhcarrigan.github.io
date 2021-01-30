@@ -6,7 +6,7 @@ export interface CertInt {
 
 //TODO: Triplebyte offers cert - look in to that
 
-export const Fcc: CertInt[] = [
+export const fCC: CertInt[] = [
   {
     name: 'Quality Assurance V7',
     date: '3 July 2020',
@@ -68,7 +68,7 @@ export const Fcc: CertInt[] = [
   },
 ];
 
-export const Google: CertInt[] = [
+export const google: CertInt[] = [
   {
     name: 'Fundamentals of Digital Marketing',
     date: '7 May 2020',
