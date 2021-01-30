@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export interface ProjectInt {
   title: string;
   image: string;
@@ -7,7 +8,7 @@ export interface ProjectInt {
   tech: string[];
 }
 
-export const Projects: ProjectInt[] = [
+export const projects: ProjectInt[] = [
   {
     title: 'Becca Lyria',
     image: 'project1.jpg',

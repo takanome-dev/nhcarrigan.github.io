@@ -1,24 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-import { SponsorsList } from "../../assets/data/Sponsors";
+import { SponsorInt, sponsorsList } from '../../assets/data/Sponsors';
 
 @Component({
   selector: 'app-sponsors',
   templateUrl: './sponsors.component.html',
-  styleUrls: ['./sponsors.component.css']
+  styleUrls: ['./sponsors.component.css'],
 })
 export class SponsorsComponent implements OnInit {
-  platinum = [];
-  gold = [];
-  silver = [];
-  bronze = [];
+  platinum: SponsorInt[] = [];
+  gold: SponsorInt[] = [];
+  silver: SponsorInt[] = [];
+  bronze: SponsorInt[] = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    this.platinum = SponsorsList.platinum
-    this.gold = SponsorsList.gold;
-    this.silver = SponsorsList.silver;
-    this.bronze = SponsorsList.bronze;
+    this.platinum = sponsorsList.platinum;
+    this.gold = sponsorsList.gold;
+    this.silver = sponsorsList.silver;
+    this.bronze = sponsorsList.bronze;
   }
-
 }

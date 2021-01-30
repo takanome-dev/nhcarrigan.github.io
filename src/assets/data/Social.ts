@@ -1,4 +1,4 @@
-export const Social: SocialInt[] = [
+export const social: SocialInt[] = [
   {
     site: 'Resume',
     url: '../../assets/files/Resume.pdf',
@@ -37,8 +37,8 @@ export const Social: SocialInt[] = [
   {
     site: 'Keybase',
     url: 'https://keybase.io/nhcarrigan',
-    icon: 'fab fa-keybase'
-  }
+    icon: 'fab fa-keybase',
+  },
 ];
 
 export interface SocialInt {

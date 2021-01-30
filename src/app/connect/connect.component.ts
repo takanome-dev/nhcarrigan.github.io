@@ -1,17 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import {Social, SocialInt} from "../../assets/data/Social"
+import { social, SocialInt } from '../../assets/data/Social';
 
 @Component({
   selector: 'app-connect',
   templateUrl: './connect.component.html',
-  styleUrls: ['./connect.component.css']
+  styleUrls: ['./connect.component.css'],
 })
 export class ConnectComponent implements OnInit {
-  social: SocialInt[] = []
-  constructor() { }
+  social: SocialInt[] = [];
+  constructor() {}
 
   ngOnInit(): void {
-    this.social = Social
+    this.social = social;
   }
-
 }
