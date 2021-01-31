@@ -33,7 +33,7 @@
   </p>
   <h2>Platinum Sponsors! ($100/month)</h2>
   <ul>
-    <li *ngFor="let sponsor of platinum">
+    <li class="platinum" *ngFor="let sponsor of platinum">
       <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
         {{sponsor.name}} - {{sponsor.date}}
       </a>
@@ -41,7 +41,7 @@
   </ul>
   <h2>Gold Sponsors! ($50/month)</h2>
   <ul>
-    <li *ngFor="let sponsor of gold">
+    <li class="gold" *ngFor="let sponsor of gold">
       <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
         {{sponsor.name}} - {{sponsor.date}}
       </a>
@@ -49,7 +49,7 @@
   </ul>
   <h2>Silver Sponsors! ($25/month)</h2>
   <ul>
-    <li *ngFor="let sponsor of silver">
+    <li class="silver" *ngFor="let sponsor of silver">
       <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
         {{sponsor.name}} - {{sponsor.date}}
       </a>
@@ -57,7 +57,7 @@
   </ul>
   <h2>Bronze Sponsors! ($10/month)</h2>
   <ul>
-    <li *ngFor="let sponsor of bronze">
+    <li class="bronze" *ngFor="let sponsor of bronze">
       <a href={{sponsor.link}} target="_blank" rel="noopener noreferrer">
         {{sponsor.name}} - {{sponsor.date}}
       </a>

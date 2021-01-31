@@ -20,6 +20,6 @@ describe('ToggleButtonComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toBeTruthy('toggle button does not build');
   });
 });

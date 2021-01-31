@@ -10,7 +10,7 @@
   >
 </h2>
 <ul>
-  <li *ngFor="let cert of fccCerts">
+  <li class="fCC-cert" *ngFor="let cert of fccCerts">
     <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer"
       >{{ cert.name }} - Earned {{ cert.date }}</a
     >
@@ -26,7 +26,7 @@
   >
 </h2>
 <ul>
-  <li *ngFor="let cert of googCerts">
+  <li class="goog-cert" *ngFor="let cert of googCerts">
     <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer"
       >{{ cert.name }} - Earned {{ cert.date }}</a
     >
