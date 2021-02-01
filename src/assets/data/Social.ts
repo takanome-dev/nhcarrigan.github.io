@@ -30,6 +30,16 @@ export const social: SocialInt[] = [
     icon: 'fab fa-twitter',
   },
   {
+    site: 'YouTube',
+    url: 'https://www.youtube.com/channel/UCjzzWNrF-9LOudszZR82dWQ',
+    icon: 'fab fa-youtube'
+  },
+  {
+    site: 'Twitch',
+    url: 'https://twitch.tv/nhcarrigan',
+    icon: 'fab fa-twitch'
+  },
+  {
     site: 'Steam',
     url: 'https://steamcommunity.com/id/nhcarrigan',
     icon: 'fab fa-steam',
