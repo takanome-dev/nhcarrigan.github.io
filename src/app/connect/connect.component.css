@@ -34,10 +34,15 @@ a {
   color: #3a3240;
   background-color: #dfc0fa;
   transition: all .5s ease-in-out;
+  font-size: 16pt;
 }
 
 .custom-btn:hover {
   color: #dfc0fa;
   background-color: #3a3240;
   border: 2px solid #dfc0fa;
+}
+
+span {
+  font-size: 16pt;
 }

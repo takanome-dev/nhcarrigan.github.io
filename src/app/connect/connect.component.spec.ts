@@ -43,6 +43,7 @@ describe('ConnectComponent', () => {
   it('should render a social item correctly', () => {
     const socialItem = social[0];
     const rendered = compiled.querySelector('.social-data');
+    const desc = rendered.querySelector('.description');
     const iconClass = socialItem.icon.split(' ').sort().join(' ');
     const renderedIconClass = rendered
       .querySelector('i')
@@ -58,6 +59,10 @@ describe('ConnectComponent', () => {
     expect(rendered.querySelector('a').textContent).toBe(
       ' ' + socialItem.site,
       'does not render the name'
+    );
+    expect(desc.textContent).toBe(
+      socialItem.description,
+      'does not render description'
     );
   });
 
