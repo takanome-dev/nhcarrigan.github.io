@@ -38,10 +38,10 @@ export const sponsorsList = {
   ],
   bronze: [
     {
-      name: 'None yet',
-      date: 'Be the first!',
+      name: 'Eddie Jaoude',
+      date: '5 February 2021',
       link:
-        'https://github.com/sponsors/nhcarrigan/sponsorships?sponsor=nhcarrigan&tier_id=47501',
+        'https://github.com/eddiejaoude',
     },
   ],
 };
