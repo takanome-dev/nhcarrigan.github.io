@@ -11,7 +11,7 @@ export interface ProjectInt {
 export const projects: ProjectInt[] = [
   {
     title: 'Becca Lyria',
-    image: 'project1.jpg',
+    image: 'project1.png',
     liveUrl: 'https://beccalyria.nhcarrigan.com',
     codeUrl: 'https://github.com/nhcarrigan/Becca-Lyria',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
@@ -19,39 +19,38 @@ export const projects: ProjectInt[] = [
       'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features. Documentation page built with Angular.',
   },
   {
-    title: 'Message Board',
-    image: 'project2.jpg',
-    liveUrl: 'http://forum.nhcarrigan.com',
-    codeUrl: 'https://github.com/nhcarrigan/forum',
-    tech: ['TypeScript', 'MongoDB', 'node.js', 'Express', 'HTML', 'CSS'],
+    title: 'BattleSnake',
+    image: 'project2.png',
+    liveUrl: 'https://forum.nhcarrigan.com',
+    codeUrl: 'https://play.battlesnake.com/u/nhcarrigan/becca-lyria/',
+    tech: ['TypeScript', 'node', 'express', 'chai'],
     description:
-      'A message board allowing users to create posts and reply to topics. Still in alpha.',
+      'A TypeScript-powered web server that interacts with the Battlesnake client. Uses Mocha and Chai for unit/functional testing.',
   },
   {
-    title: 'Social Media Database',
+    title: 'Timezone Calculator',
     image: 'project3.png',
-    liveUrl: 'http://socialdb.nhcarrigan.com',
-    codeUrl: 'https://github.com/nhcarrigan/social-db',
-    tech: ['TypeScript', 'node.js', 'Express', 'MongoDB + Mongoose'],
-    description:
-      'An app that allows users to create a virtual business card to share all of their social media profiles at one time.',
+    liveUrl: 'https://www.nhcarrigan.com/timezone-calculator',
+    codeUrl: 'https://github.com/nhcarrigan/timezone-calculator',
+    tech: ['TypeScript', 'Angular', 'Karma'],
+    description: `A web application that takes an event's start and end time and converts it to the user's local timezone. Uses Karma for testing.`,
   },
   {
-    title: 'Counting Cards',
-    image: 'project4.jpg',
-    liveUrl: 'https://www.nhcarrigan.com/counting-cards',
-    codeUrl: 'https://github.com/nhcarrigan/counting-cards',
-    tech: ['JavaScript', 'HTML', 'CSS'],
-    description:
-      'Offers three different levels of difficulty for learning how to count cards in Blackjack.',
-  },
-  {
-    title: 'TSProGen',
-    image: 'project5.png',
-    liveUrl: 'https://www.npmjs.com/package/tsprogen',
-    codeUrl: 'https://github.com/nhcarrigan/TSProGen',
+    title: 'Discord Rich Presence',
+    image: 'project4.png',
+    liveUrl: 'http://chat.nhcarrigan.com',
+    codeUrl: 'https://github.com/nhcarrigan/discord-rpc',
     tech: ['TypeScript', 'node'],
     description:
-      'A command-line interface tool for generating the initial file structure of a TypeScript node.js project.',
+      'A client-side integration for interacting with Discord. This tool can be configured by the user to change the displayed values, and must be run locally.',
+  },
+  {
+    title: 'SendGrid Email Tool',
+    image: 'project5.png',
+    liveUrl: 'https://github.com/nhcarrigan/sendgrid-email-blast',
+    codeUrl: 'https://github.com/nhcarrigan/sendgrid-email-blast',
+    tech: ['TypeScript', 'node'],
+    description:
+      'A CLI wizard build with TypeScript. Prompts the user through a series of questions for sending emails through the Twilio SendGrid API. Built for freeCodeCamp.',
   },
 ];
