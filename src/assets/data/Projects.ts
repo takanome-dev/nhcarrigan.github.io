@@ -30,8 +30,8 @@ export const projects: ProjectInt[] = [
   {
     title: 'Timezone Calculator',
     image: 'project3.png',
-    liveUrl: 'https://www.nhcarrigan.com/timezone-calculator',
-    codeUrl: 'https://github.com/nhcarrigan/timezone-calculator',
+    liveUrl: 'https://www.nhcarrigan.com/timezone-chart/',
+    codeUrl: 'https://github.com/nhcarrigan/timezone-chart',
     tech: ['TypeScript', 'Angular', 'Karma'],
     description: `A web application that takes an event's start and end time and converts it to the user's local timezone. Uses Karma for testing.`,
   },
