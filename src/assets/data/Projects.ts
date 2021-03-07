@@ -19,10 +19,10 @@ export const projects: ProjectInt[] = [
       'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features. Documentation page built with Angular.',
   },
   {
-    title: 'BattleSnake',
+    title: 'Battlesnake',
     image: 'project2.png',
-    liveUrl: 'https://forum.nhcarrigan.com',
-    codeUrl: 'https://play.battlesnake.com/u/nhcarrigan/becca-lyria/',
+    liveUrl: 'https://play.battlesnake.com/u/nhcarrigan/becca-lyria/',
+    codeUrl: 'https://github.com/nhcarrigan/battlesnake',
     tech: ['TypeScript', 'node', 'express', 'chai'],
     description:
       'A TypeScript-powered web server that interacts with the Battlesnake client. Uses Mocha and Chai for unit/functional testing.',
