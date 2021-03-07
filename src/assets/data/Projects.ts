@@ -19,7 +19,7 @@ export const projects: ProjectInt[] = [
       'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features. Documentation page built with Angular.',
   },
   {
-    title: 'Battlesnake',
+    title: 'BattleSnake',
     image: 'project2.png',
     liveUrl: 'https://play.battlesnake.com/u/nhcarrigan/becca-lyria/',
     codeUrl: 'https://github.com/nhcarrigan/battlesnake',
