@@ -21,8 +21,8 @@ export const projects: ProjectInt[] = [
   {
     title: 'BattleSnake',
     image: 'project2.png',
-    liveUrl: 'https://forum.nhcarrigan.com',
-    codeUrl: 'https://play.battlesnake.com/u/nhcarrigan/becca-lyria/',
+    liveUrl: 'https://play.battlesnake.com/u/nhcarrigan/becca-lyria/',
+    codeUrl: 'https://github.com/nhcarrigan/battlesnake',
     tech: ['TypeScript', 'node', 'express', 'chai'],
     description:
       'A TypeScript-powered web server that interacts with the Battlesnake client. Uses Mocha and Chai for unit/functional testing.',
