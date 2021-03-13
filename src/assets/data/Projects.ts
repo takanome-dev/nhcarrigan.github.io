@@ -12,8 +12,8 @@ export const projects: ProjectInt[] = [
   {
     title: 'Becca Lyria',
     image: 'project1.png',
-    liveUrl: 'https://www.beccalyria.com/',
-    codeUrl: 'https://github.com/nhcarrigan/Becca-Lyria',
+    liveUrl: 'https://www.beccalyria.com/discord-documentation',
+    codeUrl: 'https://github.com/BeccaLyria/discord-bot',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
     description:
       'A Discord bot built on the discord.js library with TypeScript. Includes a database connection to MongoDB, multiple API calls, and a number of available features. Documentation page built with Angular.',
