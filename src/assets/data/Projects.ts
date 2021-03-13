@@ -12,7 +12,7 @@ export const projects: ProjectInt[] = [
   {
     title: 'Becca Lyria',
     image: 'project1.png',
-    liveUrl: 'https://beccalyria.nhcarrigan.com',
+    liveUrl: 'https://www.beccalyria.com/',
     codeUrl: 'https://github.com/nhcarrigan/Becca-Lyria',
     tech: ['TypeScript', 'node.js', 'MongoDB', 'discord.js'],
     description:
