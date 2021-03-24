@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { intro } from 'src/assets/data/Intro';
 import { icons, technologies } from 'src/assets/data/Technologies';
 
@@ -9,13 +9,10 @@ describe('HomeComponent', () => {
   let fixture: ComponentFixture<HomeComponent>;
   let compiled: any;
 
-  beforeEach(async(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
       declarations: [HomeComponent],
     }).compileComponents();
-  }));
-
-  beforeEach(() => {
     fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

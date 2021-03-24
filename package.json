@@ -1,14 +1,13 @@
 {
   "name": "portfolio",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "AGPL-3.0-or-later",
   "author": "Nicholas Carrigan",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --browsers=Chrome",
-    "test:CI": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
+    "test": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "ng deploy"
@@ -29,6 +28,7 @@
     "@angular/router": "~11.2.6",
     "angular-cli-ghpages": "^1.0.0-rc.1",
     "rxjs": "~6.6.6",
+    "tone": "^14.7.77",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
   },

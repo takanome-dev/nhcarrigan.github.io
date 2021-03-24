@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { fCC, google } from 'src/assets/data/Certifications';
 
 import { CertificationsComponent } from './certifications.component';
@@ -8,13 +8,10 @@ describe('CertificationsComponent', () => {
   let fixture: ComponentFixture<CertificationsComponent>;
   let compiled: any;
 
-  beforeEach(async(() => {
+  beforeEach( async () => {
     TestBed.configureTestingModule({
       declarations: [CertificationsComponent],
     }).compileComponents();
-  }));
-
-  beforeEach(() => {
     fixture = TestBed.createComponent(CertificationsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
