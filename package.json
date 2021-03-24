@@ -26,6 +26,8 @@
     "@angular/platform-browser": "~11.2.5",
     "@angular/platform-browser-dynamic": "~11.2.6",
     "@angular/router": "~11.2.6",
+    "@sentry/angular": "^6.2.3",
+    "@sentry/tracing": "^6.2.3",
     "angular-cli-ghpages": "^1.0.0-rc.1",
     "rxjs": "~6.6.6",
     "tone": "^14.7.77",

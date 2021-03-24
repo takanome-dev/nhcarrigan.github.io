@@ -9,5 +9,8 @@ import { ToggleSideNavService } from './toggle-side-nav.service';
 })
 export class AppComponent {
   title = 'Nicholas Carrigan';
-  constructor(public router: Router, public toggleService: ToggleSideNavService) {}
+  constructor(
+    public router: Router,
+    public toggleService: ToggleSideNavService
+  ) {}
 }
