@@ -12,6 +12,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { ToggleButtonComponent } from './header/toggle-button/toggle-button.component';
+import { AudioComponent } from './header/audio/audio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ToggleButtonComponent } from './header/toggle-button/toggle-button.comp
     CalendarComponent,
     ContactComponent,
     SponsorsComponent,
-    ToggleButtonComponent
+    ToggleButtonComponent,
+    AudioComponent
   ],
   imports: [
     BrowserModule,
