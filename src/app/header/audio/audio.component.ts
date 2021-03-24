@@ -25,7 +25,7 @@ export class AudioComponent implements OnInit {
     }
     if (this.tone.state === 'stopped') {
       this.tone.start();
-      this.icon = '⏹'
+      this.icon = '■';
       return;
     }
     this.tone.stop();

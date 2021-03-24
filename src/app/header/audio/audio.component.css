@@ -1,0 +1,8 @@
+button {
+  width: 75%;
+  background-color: #dfc0fa;
+  color: #3a3240;
+  cursor: url("/assets/img/pointer.cur"), auto;
+  border: none;
+  font-size: 1em;
+}
