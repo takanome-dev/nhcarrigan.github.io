@@ -3,7 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AudioComponent } from './audio.component';
 import * as Tone from 'tone';
 
-fdescribe('AudioComponent', () => {
+describe('AudioComponent', () => {
   let component: AudioComponent;
   let fixture: ComponentFixture<AudioComponent>;
   let compiled: any;
