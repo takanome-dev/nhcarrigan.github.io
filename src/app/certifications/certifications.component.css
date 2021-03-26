@@ -10,6 +10,7 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-top: 10px;
+  padding-bottom: 0.1rem;
 }
 
 ul {
@@ -19,7 +20,7 @@ ul {
 
 a {
   color: #dfc0fa;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 a:hover {
