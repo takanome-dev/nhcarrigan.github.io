@@ -8,9 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ConnectComponent } from './connect/connect.component';
 import { HeaderComponent } from './header/header.component';
-import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
-import { SponsorsComponent } from './sponsors/sponsors.component';
 import { ToggleButtonComponent } from './header/toggle-button/toggle-button.component';
 import { AudioComponent } from './header/audio/audio.component';
 import * as Sentry from '@sentry/angular';
@@ -24,9 +22,7 @@ import { Router } from '@angular/router';
     CertificationsComponent,
     ConnectComponent,
     HeaderComponent,
-    CalendarComponent,
     ContactComponent,
-    SponsorsComponent,
     ToggleButtonComponent,
     AudioComponent,
   ],

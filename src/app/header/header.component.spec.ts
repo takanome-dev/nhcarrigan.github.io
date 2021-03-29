@@ -8,10 +8,8 @@ const navLinks = [
   'Projects',
   'Certifications',
   'Connect',
-  'Services',
   'Contact',
   'Chat',
-  'Sponsors',
   ' nhcarrigan ',
   'Art by Moonlight',
 ];
@@ -57,7 +55,7 @@ describe('HeaderComponent', () => {
   });
 
   it('should render status text', () => {
-    expect(compiled.querySelector('p').textContent).toBe(
+    expect(compiled.querySelectorAll('p')[1].textContent).toBe(
       `Drinkin' coffee, boppin' tunes, bangin' code.`
     );
   });

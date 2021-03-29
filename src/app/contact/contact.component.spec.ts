@@ -40,4 +40,10 @@ describe('ContactComponent', () => {
       'does not have correct method'
     );
   });
+
+  it('should render the calendar embed', () => {
+    expect(compiled.querySelector('.calendly-inline-widget')).toBeTruthy(
+      'does not render the calendar'
+    );
+  });
 });
