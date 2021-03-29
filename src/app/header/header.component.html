@@ -1,12 +1,20 @@
 <app-toggle-button></app-toggle-button>
 <nav id="sidebar" [ngClass]="{ hidden: toggleService.hideSideNav }">
   <h1 class="header-text">Nicholas Carrigan</h1>
+  <p class="version-text">Version {{ version }}</p>
   <img class="profile" src="../../assets/img/profile.jpg" />
   <hr />
   <p>Drinkin' coffee, boppin' tunes, bangin' code.</p>
   <app-audio></app-audio>
   <hr />
-  <p><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a></p>
+  <p>
+    <a
+      routerLink="/"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+  </p>
   <p><a routerLink="/projects" routerLinkActive="active-link">Projects</a></p>
   <p>
     <a routerLink="/certifications" routerLinkActive="active-link"

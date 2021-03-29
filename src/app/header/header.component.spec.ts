@@ -55,7 +55,7 @@ describe('HeaderComponent', () => {
   });
 
   it('should render status text', () => {
-    expect(compiled.querySelector('p').textContent).toBe(
+    expect(compiled.querySelectorAll('p')[1].textContent).toBe(
       `Drinkin' coffee, boppin' tunes, bangin' code.`
     );
   });
