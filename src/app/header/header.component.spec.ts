@@ -8,10 +8,8 @@ const navLinks = [
   'Projects',
   'Certifications',
   'Connect',
-  'Services',
   'Contact',
   'Chat',
-  'Sponsors',
   ' nhcarrigan ',
   'Art by Moonlight',
 ];
