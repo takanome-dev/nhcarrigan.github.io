@@ -58,3 +58,18 @@ nav::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
+
+.custom-btn {
+  padding: 5px;
+  border: 2px solid #3a3240;
+  border-radius: 10px;
+  color: #3a3240;
+  background-color: #dfc0fa;
+  transition: all .5s ease-in-out;
+}
+
+.custom-btn:hover {
+  color: #dfc0fa;
+  background-color: #3a3240;
+  border: 2px solid #dfc0fa;
+}
