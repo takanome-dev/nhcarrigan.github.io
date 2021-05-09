@@ -1,0 +1,22 @@
+<div class="content">
+  <h1>Support My Work</h1>
+  <p>
+    Hosting and maintaining free, open-source software is not cheap. If you like
+    what I do, please consider supporting me:
+  </p>
+  <p
+    class="support-button"
+    *ngFor="let option of donate"
+    (click)="navigate(option.url)"
+  >
+    <i class="{{ option.icon }}"></i> {{ option.text }}
+  </p>
+  <h2>My Supporters</h2>
+  <p>My thanks to these wonderful people for supporting my efforts.</p>
+  <p *ngFor="let supporter of supporters">
+    <a href="{{ supporter.link }}" target="_blank" rel="noopener noreferrer"
+      ><span class="name">{{ supporter.name }}</span>
+      <span class="since">supporting since {{ supporter.date }}</span></a
+    >
+  </p>
+</div>

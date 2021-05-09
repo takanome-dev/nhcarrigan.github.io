@@ -22,6 +22,6 @@ export const links = [
   {
     homeText: 'View my supporters',
     navText: '💜Supporters💜',
-    link: '',
+    link: '/support',
   },
 ];

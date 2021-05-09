@@ -20,6 +20,7 @@ a {
   color: var(--dark-purple);
   border-radius: 10px;
   border: 2px solid var(--light-purple);
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
 
 .project-button:hover {
@@ -48,6 +49,7 @@ a {
   border-radius: 10px;
   border: 2px solid var(--dark-purple);
   padding: 5px 5px;
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
 
 .modal-button:hover {

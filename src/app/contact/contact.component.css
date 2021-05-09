@@ -1,5 +1,6 @@
 label {
   display: block;
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
 
 .custom-btn {
@@ -10,6 +11,7 @@ label {
   background-color: #dfc0fa;
   transition: all 0.5s ease-in-out;
   font-size: 24pt;
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
 
 .custom-btn:hover {
