@@ -7,7 +7,7 @@ export const links = [
   {
     homeText: 'See my work',
     navText: 'Projects',
-    link: '',
+    link: '/work',
   },
   {
     homeText: 'Find my social sites',
