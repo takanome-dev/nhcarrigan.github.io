@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { CharacterComponent } from './character/character.component';
+import { AudioComponent } from './nav/audio/audio.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {

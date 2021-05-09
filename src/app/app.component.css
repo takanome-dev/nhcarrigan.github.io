@@ -1,0 +1,15 @@
+.content {
+  text-align: center;
+  background-color: var(--transparent);
+  width: 80vw;
+  max-width: 600px;
+  margin: 25px auto;
+  border-radius: 10px;
+  color: var(--light-purple);
+  padding: 10px 15px;
+  background-image: var(--border-img);
+  background-size: 98% 100%;
+  background-repeat: no-repeat;
+  max-height: calc(100vh - 75px - 50px);
+  overflow-y: scroll;
+}
