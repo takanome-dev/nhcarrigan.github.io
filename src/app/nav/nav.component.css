@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--transparent);
+  color: var(--light-purple);
+  height: 50px;
+  width: 100vw;
+}
+
+a {
+  color: var(--light-purple);
+}

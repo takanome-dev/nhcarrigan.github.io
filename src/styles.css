@@ -39,8 +39,9 @@ a {
 }
 
 html {
-  --scrollbarBG: #3a3240;
-  --thumbBG: #aea8d3;
+  --dark-purple: #3a3240;
+  --light-purple: #aea8d3;
+  --transparent: rgba(0, 0, 0, 0.5);
 }
 
 body::-webkit-scrollbar {
@@ -48,13 +49,13 @@ body::-webkit-scrollbar {
 }
 body {
   scrollbar-width: thin;
-  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scrollbar-color: var(--light-purple) var(--dark-purple);
 }
 body::-webkit-scrollbar-track {
-  background: var(--scrollbarBG);
+  background: var(--dark-purple);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG);
+  background-color: var(--light-purple);
   border-radius: 6px;
-  border: 3px solid var(--scrollbarBG);
+  border: 3px solid var(--dark-purple);
 }
