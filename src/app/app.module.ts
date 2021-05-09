@@ -12,9 +12,10 @@ import { AudioComponent } from './nav/audio/audio.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
 import { SocialComponent } from './social/social.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent, AboutComponent, WorkComponent, SocialComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent, AboutComponent, WorkComponent, SocialComponent, ContactComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {

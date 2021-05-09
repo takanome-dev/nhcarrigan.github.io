@@ -17,7 +17,7 @@ export const links = [
   {
     homeText: 'Contact Me',
     navText: 'Contact',
-    link: '',
+    link: '/contact',
   },
   {
     homeText: 'View my supporters',

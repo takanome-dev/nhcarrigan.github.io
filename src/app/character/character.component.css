@@ -3,4 +3,5 @@
   position: fixed;
   margin-top: calc(100vh - 50px);
   margin-left: 0vw;
+  z-index: 20;
 }
