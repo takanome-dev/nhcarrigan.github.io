@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { links } from 'src/assets/data/Links';
 
 @Component({
   selector: 'app-nav',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  public links = links;
 
   constructor() { }
 

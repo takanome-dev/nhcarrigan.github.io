@@ -9,9 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { CharacterComponent } from './character/character.component';
 import { AudioComponent } from './nav/audio/audio.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent, AboutComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {

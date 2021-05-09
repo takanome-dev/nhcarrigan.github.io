@@ -4,5 +4,8 @@
     nhcarrigan
   </p>
   <p><a routerLink="/">Home</a></p>
+  <p *ngFor="let link of links">
+    <a routerLink="{{ link.link }}">{{ link.navText }}</a>
+  </p>
   <app-audio></app-audio>
 </nav>

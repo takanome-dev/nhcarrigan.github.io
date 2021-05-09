@@ -3,11 +3,9 @@
   <img class="avatar" src="../../assets/img/profile.png" />
   <p>Welcome to my profile page. Here you can:</p>
   <ul>
-    <li>Read my story</li>
-    <li>See my work</li>
-    <li>Find my social sites</li>
-    <li>Contact me</li>
-    <li>View my supporters</li>
+    <li *ngFor="let link of links">
+      <a routerLink="{{ link.link }}">{{ link.homeText }}</a>
+    </li>
   </ul>
   <p>
     Feel free to look around. If you have feedback or improvements to this site,

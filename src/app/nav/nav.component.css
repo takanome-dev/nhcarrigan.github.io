@@ -6,10 +6,17 @@ nav {
   color: var(--light-purple);
   height: 50px;
   width: 100vw;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 0 10px;
 }
 
 a {
   color: var(--light-purple);
+  margin: 0;
 }
 
 .nav-img {
