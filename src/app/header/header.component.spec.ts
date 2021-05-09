@@ -49,7 +49,7 @@ describe('HeaderComponent', () => {
   it('should render profile image', () => {
     expect(compiled.querySelector('img')).toBeTruthy('does not render image');
     expect(compiled.querySelector('img').getAttribute('src')).toBe(
-      '../../assets/img/profile.jpg',
+      '../../assets/img/profile.png',
       'does not render correct image'
     );
   });
