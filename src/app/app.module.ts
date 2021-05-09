@@ -16,7 +16,18 @@ import { ContactComponent } from './contact/contact.component';
 import { SupportComponent } from './support/support.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent, AboutComponent, WorkComponent, SocialComponent, ContactComponent, SupportComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    NavComponent,
+    CharacterComponent,
+    AudioComponent,
+    AboutComponent,
+    WorkComponent,
+    SocialComponent,
+    ContactComponent,
+    SupportComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {
