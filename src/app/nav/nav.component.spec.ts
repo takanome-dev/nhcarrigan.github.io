@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { AudioComponent } from './audio/audio.component';
 
 import { NavComponent } from './nav.component';
 
@@ -8,7 +9,7 @@ describe('NavComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavComponent ]
+      declarations: [ NavComponent, AudioComponent ],
     })
     .compileComponents();
   });
