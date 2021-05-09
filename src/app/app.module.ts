@@ -11,9 +11,10 @@ import { CharacterComponent } from './character/character.component';
 import { AudioComponent } from './nav/audio/audio.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent, AboutComponent, WorkComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent, AudioComponent, AboutComponent, WorkComponent, SocialComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {

@@ -1,0 +1,13 @@
+<div class="content">
+  <h1>My Socials</h1>
+  <p>
+    Here you can view my various social media accounts - choose your favourite
+    and connect with me.
+  </p>
+  <div *ngFor="let social of socials">
+    <p class="social-button" (click)="navigate(social.url)">
+      <i class="{{ social.icon }}"></i> {{ social.site }}
+    </p>
+    <p class="social-desc">{{ social.description }}</p>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.social-button {
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+  border-radius: 10px;
+  border: 2px solid var(--light-purple);
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.social-button:hover {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+}
+
+.social-desc {
+  margin-top: 0;
+}

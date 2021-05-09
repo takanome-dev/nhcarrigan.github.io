@@ -12,7 +12,7 @@ export const links = [
   {
     homeText: 'Find my social sites',
     navText: 'Socials',
-    link: '',
+    link: '/social',
   },
   {
     homeText: 'Contact Me',
