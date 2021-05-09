@@ -7,9 +7,10 @@ import * as Sentry from '@sentry/angular';
 import { Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
+import { CharacterComponent } from './character/character.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, CharacterComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {
