@@ -1,8 +1,6 @@
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { ToggleButtonComponent } from './header/toggle-button/toggle-button.component';
 
 describe('AppComponent', () => {
   let fixture: ComponentFixture<AppComponent>;
@@ -12,7 +10,7 @@ describe('AppComponent', () => {
   beforeEach(async () => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [AppComponent, HeaderComponent, ToggleButtonComponent],
+      declarations: [AppComponent],
     }).compileComponents();
     fixture = TestBed.createComponent(AppComponent);
     app = fixture.componentInstance;
