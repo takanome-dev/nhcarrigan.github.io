@@ -46,7 +46,7 @@ describe('NavComponent', () => {
   it('should render the profile image', () => {
     const image = compiled.querySelector('img');
     expect(image).toBeTruthy();
-    expect(image.src).toMatch(/profile\.png/);
+    expect(image.src).toMatch(/profile-sm\.png/);
   });
 
   links.forEach((link, index) => {
