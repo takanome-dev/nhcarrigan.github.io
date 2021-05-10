@@ -19,7 +19,7 @@
   </div>
   <h2 id="certs">Certifications</h2>
   <p>These are the professional certifications I have earned.</p>
-  <p *ngFor="let cert of certs">
+  <p class="cert" *ngFor="let cert of certs">
     <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer"
       >{{ cert.name }} - earned {{ cert.date }}</a
     >
@@ -32,7 +32,7 @@
       <span class="job-title">{{ pos.position }}</span> at {{ pos.name }}
     </p>
     <p class="job-time">{{ pos.start }} - {{ pos.end }}</p>
-    <p>{{ pos.description }}</p>
+    <p class="job-desc">{{ pos.description }}</p>
   </div>
 </div>
 <!-- Modal Code -->
