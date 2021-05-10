@@ -32,7 +32,7 @@ describe('AudioComponent', () => {
   it('should display the image', () => {
     const img = compiled.querySelector('img');
     expect(img).toBeTruthy();
-    expect(img.getAttribute('src')).toMatch(/navi\.gif/);
+    expect(img.getAttribute('src')).toMatch(/ocarina\.png/);
   });
 
   it('should not play on load', () => {

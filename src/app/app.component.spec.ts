@@ -1,5 +1,6 @@
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { NgParticlesComponent } from 'ng-particles';
 import { AppComponent } from './app.component';
 import { CharacterComponent } from './character/character.component';
 import { AudioComponent } from './nav/audio/audio.component';
@@ -18,6 +19,7 @@ describe('AppComponent', () => {
         CharacterComponent,
         NavComponent,
         AudioComponent,
+        NgParticlesComponent
       ],
     }).compileComponents();
     fixture = TestBed.createComponent(AppComponent);
