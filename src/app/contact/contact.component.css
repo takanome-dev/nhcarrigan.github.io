@@ -1,19 +1,6 @@
-* {
-  text-align: center;
-}
-
 label {
   display: block;
-}
-
-.text-content {
-  max-width: 750px;
-  width: 90vw;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  margin-top: 10px;
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
 
 .custom-btn {
@@ -22,8 +9,9 @@ label {
   border-radius: 10px;
   color: #3a3240;
   background-color: #dfc0fa;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   font-size: 24pt;
+  cursor: url("/assets/img/pointer.cur"), auto;
 }
 
 .custom-btn:hover {
@@ -41,11 +29,18 @@ label {
   border-radius: 10px;
   color: #3a3240;
   background-color: #dfc0fa;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .custom-input:focus {
   color: #dfc0fa;
   background-color: #3a3240;
   border: 2px solid #dfc0fa;
+}
+
+.calendly-inline-widget {
+  overflow: hidden;
+  width: 80vw;
+  max-width: 600px;
+  margin: auto;
 }

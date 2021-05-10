@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { intro } from 'src/assets/data/Intro';
-import { icons, technologies } from 'src/assets/data/Technologies';
-
+import { RouterTestingModule } from '@angular/router/testing';
+import { links } from 'src/assets/data/Links';
+import { version } from '../../../package.json';
 import { HomeComponent } from './home.component';
 
 describe('HomeComponent', () => {
@@ -10,68 +10,65 @@ describe('HomeComponent', () => {
   let compiled: any;
 
   beforeEach(async () => {
-    TestBed.configureTestingModule({
+    await TestBed.configureTestingModule({
       declarations: [HomeComponent],
+      imports: [RouterTestingModule],
     }).compileComponents();
     fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    compiled = fixture.debugElement.nativeElement;
+    compiled = fixture.nativeElement;
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy('home component does not build');
+    expect(component).toBeTruthy();
+  });
+
+  it('should render', () => {
+    expect(compiled).toBeTruthy();
   });
 
   it('should have the correct properties', () => {
-    expect(component.icons).toBeTruthy('missing icons property');
-    expect(component.icons.length).toEqual(
-      icons.length,
-      'incorrect icons value'
-    );
-    expect(component.intro).toBeTruthy('missing intro property');
-    expect(component.intro.length).toEqual(
-      intro.length,
-      'incorrect intro value'
-    );
-    expect(component.techs).toBeTruthy('missing techs property');
-    expect(component.techs.length).toEqual(
-      technologies.length,
-      'incorrect techs value'
-    );
+    expect(component.links).toBeDefined();
+    expect(component.links).toBe(links);
+    expect(component.version).toBeDefined();
+    expect(component.version).toBe(version);
   });
 
-  it('should render the title', () => {
-    expect(compiled.querySelector('h1').textContent).toBe(
-      'Nicholas Carrigan',
-      'does not render title'
-    );
+  it('should display the correct title', () => {
+    const title = compiled.querySelector('h1');
+    expect(title.innerText.trim()).toBe('Nicholas Carrigan');
   });
 
-  it('should render the intro correctly', () => {
-    const introRendered = Array.from(compiled.querySelectorAll('.intro')).map(
-      (el: any) => el.textContent
-    );
-    intro.forEach((line, index) => {
-      expect(introRendered).toContain(line, `missing intro line ${index}`);
+  it('should render the profile image', () => {
+    const image = compiled.querySelector('img');
+    expect(image).toBeTruthy();
+    expect(image.src).toMatch(/profile\.png/);
+  });
+
+  links.forEach((link, index) => {
+    it(`should render the ${link.homeText} link correctly`, () => {
+      const rendered = compiled.querySelectorAll('a')[index];
+      expect(rendered.innerText.trim()).toBe(link.homeText);
+      expect(rendered.getAttribute('href')).toBe(link.link);
     });
   });
 
-  it('should render the icons correctly', () => {
-    const iconsRendered = Array.from(
-      compiled.querySelectorAll('i')
-    ).map((el: any) => el.getAttribute('title'));
-    icons.forEach((el) => {
-      expect(iconsRendered).toContain(el.name, `missing ${el.name} icon`);
-    });
+  it('should link to the source code', () => {
+    const linklist = compiled.querySelectorAll('a');
+    const target = linklist[linklist.length - 2];
+    expect(target.innerText.trim()).toBe('visit the GitHub repository');
+    expect(target.getAttribute('href')).toBe(
+      'https://github.com/nhcarrigan/nhcarrigan.github.io'
+    );
   });
 
-  it('should render the technologies correctly', () => {
-    const techList = Array.from(compiled.querySelectorAll('.tech-item')).map(
-      (el: any) => el.textContent
+  it('should credit Moonlight', () => {
+    const linklist = compiled.querySelectorAll('a');
+    const target = linklist[linklist.length - 1];
+    expect(target.innerText.trim()).toBe('Moonlight');
+    expect(target.getAttribute('href')).toBe(
+      'https://www.instagram.com/moonlightkcreations/'
     );
-    technologies.forEach((tech) => {
-      expect(techList).toContain(tech, `missing ${tech} technology`);
-    });
   });
 });

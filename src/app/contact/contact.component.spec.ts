@@ -14,36 +14,29 @@ describe('ContactComponent', () => {
     fixture = TestBed.createComponent(ContactComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    compiled = fixture.debugElement.nativeElement;
+    compiled = fixture.nativeElement;
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy('contact component does not build');
+    expect(component).toBeTruthy();
+  });
+
+  it('should render', () => {
+    expect(compiled).toBeTruthy();
   });
 
   it('should render the title', () => {
-    expect(compiled.querySelector('h1').textContent).toBe(
-      'Contact me!',
-      'does not render title'
-    );
+    expect(compiled.querySelector('h1').textContent).toBe('Contact me!');
   });
 
   it('should have correct form', () => {
     const form = compiled.querySelector('form');
     expect(form).toBeTruthy('does not render form');
-    expect(form.getAttribute('action')).toBe(
-      'https://formspree.io/f/xvowlnwe',
-      'does not have correct action'
-    );
-    expect(form.getAttribute('method')).toBe(
-      'POST',
-      'does not have correct method'
-    );
+    expect(form.getAttribute('action')).toBe('https://formspree.io/f/xvowlnwe');
+    expect(form.getAttribute('method')).toBe('POST');
   });
 
   it('should render the calendar embed', () => {
-    expect(compiled.querySelector('.calendly-inline-widget')).toBeTruthy(
-      'does not render the calendar'
-    );
+    expect(compiled.querySelector('.calendly-inline-widget')).toBeTruthy();
   });
 });

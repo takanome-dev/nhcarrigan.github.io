@@ -3,28 +3,30 @@ import { APP_INITIALIZER, ErrorHandler, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { CertificationsComponent } from './certifications/certifications.component';
-import { ConnectComponent } from './connect/connect.component';
-import { HeaderComponent } from './header/header.component';
-import { ContactComponent } from './contact/contact.component';
-import { ToggleButtonComponent } from './header/toggle-button/toggle-button.component';
-import { AudioComponent } from './header/audio/audio.component';
 import * as Sentry from '@sentry/angular';
 import { Router } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { NavComponent } from './nav/nav.component';
+import { CharacterComponent } from './character/character.component';
+import { AudioComponent } from './nav/audio/audio.component';
+import { AboutComponent } from './about/about.component';
+import { WorkComponent } from './work/work.component';
+import { SocialComponent } from './social/social.component';
+import { ContactComponent } from './contact/contact.component';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProjectsComponent,
-    CertificationsComponent,
-    ConnectComponent,
-    HeaderComponent,
-    ContactComponent,
-    ToggleButtonComponent,
+    NavComponent,
+    CharacterComponent,
     AudioComponent,
+    AboutComponent,
+    WorkComponent,
+    SocialComponent,
+    ContactComponent,
+    SupportComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [

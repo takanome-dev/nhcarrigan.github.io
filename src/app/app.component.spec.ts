@@ -1,8 +1,9 @@
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { ToggleButtonComponent } from './header/toggle-button/toggle-button.component';
+import { CharacterComponent } from './character/character.component';
+import { AudioComponent } from './nav/audio/audio.component';
+import { NavComponent } from './nav/nav.component';
 
 describe('AppComponent', () => {
   let fixture: ComponentFixture<AppComponent>;
@@ -12,7 +13,12 @@ describe('AppComponent', () => {
   beforeEach(async () => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [AppComponent, HeaderComponent, ToggleButtonComponent],
+      declarations: [
+        AppComponent,
+        CharacterComponent,
+        NavComponent,
+        AudioComponent,
+      ],
     }).compileComponents();
     fixture = TestBed.createComponent(AppComponent);
     app = fixture.componentInstance;
@@ -30,16 +36,15 @@ describe('AppComponent', () => {
     );
   });
 
-  it('should render header component', () => {
-    expect(compiled.querySelector('app-header')).toBeTruthy(
-      'does not render header component'
-    );
+  it('should render the character component', () => {
+    expect(compiled.querySelector('app-character')).toBeTruthy();
   });
 
-  it('should render body component', () => {
-    expect(compiled.querySelector('body')).toBeTruthy(
-      'does not render body component'
-    );
+  it('should render the navbar component', () => {
+    expect(compiled.querySelector('app-nav')).toBeTruthy();
+  });
+
+  it('should render the router component', () => {
     expect(compiled.querySelector('router-outlet')).toBeTruthy(
       'does not render router component'
     );

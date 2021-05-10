@@ -1,17 +1,30 @@
-<div class="text-content">
+<div class="content">
   <h1>Nicholas Carrigan</h1>
-  <div>
-    <p class="intro" *ngFor="let line of intro">{{ line }}</p>
-  </div>
-  <h2>Technologies</h2>
-  <div>
-    <i
-      *ngFor="let icon of icons"
-      class="{{ icon.icon }} tech-icon"
-      title="{{ icon.name }}"
-    ></i>
-  </div>
-  <ul class="tech">
-    <li class="tech-item" *ngFor="let tech of techs">{{ tech }}</li>
+  <p class="version">Version {{ version }}</p>
+  <img class="avatar" alt="avatar" src="../../assets/img/profile.png" />
+  <p>Welcome to my profile page. Here you can:</p>
+  <ul>
+    <li *ngFor="let link of links">
+      <a routerLink="{{ link.link }}">{{ link.homeText }}</a>
+    </li>
   </ul>
+  <p>
+    Feel free to look around. If you have feedback or improvements to this site,
+    <a
+      href="https://github.com/nhcarrigan/nhcarrigan.github.io"
+      target="_blank"
+      rel="noopener noreferrer"
+      >visit the GitHub repository</a
+    >
+    where you can open an issue or submit a pull request.
+  </p>
+  <p>
+    My avatar was generously provided by
+    <a
+      href="https://www.instagram.com/moonlightkcreations/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Moonlight</a
+    >.
+  </p>
 </div>

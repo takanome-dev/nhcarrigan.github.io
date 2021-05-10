@@ -1,0 +1,11 @@
+<nav>
+  <p class="title">
+    <img class="nav-img" alt="avatar" src="../../assets/img/profile-sm.png" />
+    nhcarrigan
+  </p>
+  <p><a routerLink="/">Home</a></p>
+  <p *ngFor="let link of links">
+    <a routerLink="{{ link.link }}">{{ link.navText }}</a>
+  </p>
+  <app-audio></app-audio>
+</nav>

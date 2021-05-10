@@ -1,0 +1,29 @@
+.support-button {
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+  border-radius: 10px;
+  border: 2px solid var(--light-purple);
+  max-width: 200px;
+  margin: 10px auto;
+  cursor: url("/assets/img/pointer.cur"), auto;
+}
+
+.support-button:hover {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+}
+
+a {
+  color: var(--light-purple);
+  text-decoration: none;
+}
+
+.name {
+  font-weight: bold;
+  display: block;
+  text-decoration: underline;
+}
+
+.since {
+  font-style: italic;
+}

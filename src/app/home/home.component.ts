@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { intro } from '../../assets/data/Intro';
-import { technologies, icons, IconInt } from '../../assets/data/Technologies';
+import { links } from 'src/assets/data/Links';
+import { version } from '../../../package.json';
 
 @Component({
   selector: 'app-home',
@@ -8,14 +8,9 @@ import { technologies, icons, IconInt } from '../../assets/data/Technologies';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  intro: string[] = [];
-  techs: string[] = [];
-  icons: IconInt[] = [];
+  public links = links;
+  public version = version;
   constructor() {}
 
-  ngOnInit(): void {
-    this.intro = intro;
-    this.techs = technologies;
-    this.icons = icons;
-  }
+  ngOnInit(): void {}
 }
