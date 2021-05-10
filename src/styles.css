@@ -75,3 +75,11 @@ html {
   max-height: calc(100vh - 75px - 50px);
   overflow-y: scroll;
 }
+
+#particles {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}

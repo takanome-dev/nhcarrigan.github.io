@@ -14,6 +14,7 @@ import { WorkComponent } from './work/work.component';
 import { SocialComponent } from './social/social.component';
 import { ContactComponent } from './contact/contact.component';
 import { SupportComponent } from './support/support.component';
+import { NgParticlesModule } from 'ng-particles';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { SupportComponent } from './support/support.component';
     ContactComponent,
     SupportComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, NgParticlesModule],
   providers: [
     {
       provide: ErrorHandler,
