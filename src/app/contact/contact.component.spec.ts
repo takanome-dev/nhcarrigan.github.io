@@ -35,8 +35,4 @@ describe('ContactComponent', () => {
     expect(form.getAttribute('action')).toBe('https://formspree.io/f/xvowlnwe');
     expect(form.getAttribute('method')).toBe('POST');
   });
-
-  it('should render the calendar embed', () => {
-    expect(compiled.querySelector('.calendly-inline-widget')).toBeTruthy();
-  });
 });
