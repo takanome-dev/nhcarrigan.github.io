@@ -11,3 +11,12 @@ li {
 a {
   color: var(--light-purple);
 }
+
+.version {
+  margin: 0 auto;
+  font-style: italic;
+}
+
+h1 {
+  margin-bottom: 0;
+}
