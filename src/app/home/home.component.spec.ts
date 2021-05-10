@@ -54,10 +54,19 @@ describe('HomeComponent', () => {
 
   it('should link to the source code', () => {
     const linklist = compiled.querySelectorAll('a');
-    const last = linklist[linklist.length - 1];
-    expect(last.innerText.trim()).toBe('visit the GitHub repository');
-    expect(last.getAttribute('href')).toBe(
+    const target = linklist[linklist.length - 2];
+    expect(target.innerText.trim()).toBe('visit the GitHub repository');
+    expect(target.getAttribute('href')).toBe(
       'https://github.com/nhcarrigan/nhcarrigan.github.io'
+    );
+  });
+
+  it('should credit Moonlight', () => {
+    const linklist = compiled.querySelectorAll('a');
+    const target = linklist[linklist.length - 1];
+    expect(target.innerText.trim()).toBe('Moonlight');
+    expect(target.getAttribute('href')).toBe(
+      'https://www.instagram.com/moonlightkcreations/'
     );
   });
 });
