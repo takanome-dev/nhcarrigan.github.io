@@ -6,7 +6,7 @@ nav {
   color: var(--light-purple);
   height: 50px;
   width: 100vw;
-  overflow-y: scroll;
+  overflow-y: visible;
   flex-wrap: wrap;
 }
 
@@ -27,4 +27,10 @@ a {
   display: flex;
   align-items: center;
   font-size: 20pt;
+}
+
+@media (max-width: 720px) {
+  nav {
+    height: 100px;
+  }
 }
