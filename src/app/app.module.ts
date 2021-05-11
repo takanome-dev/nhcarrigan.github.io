@@ -15,6 +15,7 @@ import { SocialComponent } from './social/social.component';
 import { ContactComponent } from './contact/contact.component';
 import { SupportComponent } from './support/support.component';
 import { NgParticlesModule } from 'ng-particles';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { NgParticlesModule } from 'ng-particles';
     SocialComponent,
     ContactComponent,
     SupportComponent,
+    FourOhFourComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgParticlesModule],
   providers: [
