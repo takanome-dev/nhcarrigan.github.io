@@ -43,15 +43,17 @@
   <ul>
     <li *ngFor="let tech of target.tech">{{ tech }}</li>
   </ul>
-  <span class="modal-button"
-    ><a href="{{ target.liveUrl }}" target="_blank" rel="noopener noreferrer"
-      >View Project</a
-    ></span
-  >
-  <span class="modal-button"
-    ><a href="{{ target.codeUrl }}" target="_blank" rel="noopener noreferrer"
-      >View Code</a
-    ></span
-  >
+  <div class="button-cont">
+    <span class="modal-button"
+      ><a href="{{ target.liveUrl }}" target="_blank" rel="noopener noreferrer"
+        >View Project</a
+      ></span
+    >
+    <span class="modal-button"
+      ><a href="{{ target.codeUrl }}" target="_blank" rel="noopener noreferrer"
+        >View Code</a
+      ></span
+    >
+  </div>
   <p class="modal-button" (click)="closeModal()">Close</p>
 </div>
