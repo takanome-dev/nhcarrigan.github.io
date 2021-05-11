@@ -5,7 +5,7 @@ nav {
   background-color: var(--transparent);
   color: var(--light-purple);
   height: 50px;
-  width: 100vw;
+  width: 100%;
   overflow-y: visible;
   flex-wrap: wrap;
 }
