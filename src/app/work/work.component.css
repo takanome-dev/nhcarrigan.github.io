@@ -9,6 +9,7 @@ a {
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 5px;
 }
 
 .project-title {
@@ -84,4 +85,11 @@ a {
   outline: none;
   border: 1px solid var(--light-purple);
   background-color: var(--light-purple);
+}
+
+.button-cont {
+  padding: 0 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
