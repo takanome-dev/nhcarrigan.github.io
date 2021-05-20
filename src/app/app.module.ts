@@ -8,7 +8,6 @@ import { Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { CharacterComponent } from './character/character.component';
-import { AudioComponent } from './nav/audio/audio.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
 import { SocialComponent } from './social/social.component';
@@ -23,7 +22,6 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     HomeComponent,
     NavComponent,
     CharacterComponent,
-    AudioComponent,
     AboutComponent,
     WorkComponent,
     SocialComponent,
