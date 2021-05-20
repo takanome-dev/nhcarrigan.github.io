@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { links } from 'src/assets/data/Links';
-import { version } from '../../../package.json';
 import { HomeComponent } from './home.component';
 
 describe('HomeComponent', () => {
@@ -31,8 +30,6 @@ describe('HomeComponent', () => {
   it('should have the correct properties', () => {
     expect(component.links).toBeDefined();
     expect(component.links).toBe(links);
-    expect(component.version).toBeDefined();
-    expect(component.version).toBe(version);
   });
 
   it('should display the correct title', () => {
