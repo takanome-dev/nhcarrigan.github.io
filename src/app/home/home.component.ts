@@ -8,7 +8,6 @@ import { links } from 'src/assets/data/Links';
 })
 export class HomeComponent implements OnInit {
   public links = links;
-  public version = '2.2.2';
   constructor() {}
 
   ngOnInit(): void {}
