@@ -28,7 +28,7 @@
     "@angular/router": "12.0.1",
     "@sentry/angular": "6.4.1",
     "@sentry/tracing": "6.4.1",
-    "angular-cli-ghpages": "1.0.0-rc.1",
+    "angular-cli-ghpages": "1.0.0-rc.2",
     "ng-particles": "2.10.0",
     "rxjs": "6.6.7",
     "tone": "14.7.77",
