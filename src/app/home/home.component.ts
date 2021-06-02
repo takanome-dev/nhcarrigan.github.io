@@ -8,6 +8,10 @@ import { links } from 'src/assets/data/Links';
 })
 export class HomeComponent implements OnInit {
   public links = links;
+  public years = Math.round(
+    (Date.now() - new Date('April 15, 2020').getTime()) / 31557600000
+  );
+  public yearString = `${this.years} ${this.years === 1 ? 'year' : 'years'}`;
   constructor() {}
 
   ngOnInit(): void {}
