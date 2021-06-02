@@ -2,6 +2,7 @@
 export const experience = [
   {
     name: 'freeCodeCamp',
+    url: 'https://www.freecodecamp.org',
     position: 'Open Source Scrivener and Bug-Hunter Errant',
     start: '1 December 2020',
     end: 'Present',
@@ -10,6 +11,7 @@ export const experience = [
   },
   {
     name: 'Commit Your Code',
+    url: 'https://discord.gg/D453pGe',
     position: 'Community Moderator',
     start: '29 December 2020',
     end: 'Present',
@@ -18,6 +20,7 @@ export const experience = [
   },
   {
     name: 'EddieHub',
+    url: 'https://www.eddiehub.org/',
     position: 'Motivational Monk and Champion of Collaboration',
     start: '26 January 2021',
     end: 'Present',
@@ -26,6 +29,7 @@ export const experience = [
   },
   {
     name: 'Streamcord',
+    url: 'https://streamcord.io/',
     position: 'Support Staff',
     start: '20 March 2021',
     end: 'Present',
@@ -33,7 +37,17 @@ export const experience = [
       'Streamcord is a Discord bot that allows users to generate Twitch notifications for their servers. As support staff, I assist users with triaging and resolving issues related to the use of the service.',
   },
   {
+    name: 'Esports Agent',
+    url: 'https://esportsagent.gg/',
+    position: 'Bot Developer',
+    start: '19 April 2021',
+    end: 'Present',
+    description:
+      'Esports Agent is a community for esports competition. I develop custom Discord bots for their server, to facilitate and streamline the operations.',
+  },
+  {
     name: 'DigitalOcean: Hacktoberfest',
+    url: 'https://hacktoberfest.digitalocean.com/',
     position: 'Community Moderator',
     start: '26 April 2021',
     end: 'Present',
