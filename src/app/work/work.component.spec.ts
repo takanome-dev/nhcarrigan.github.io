@@ -111,6 +111,8 @@ describe('WorkComponent', () => {
       expect(date.innerText.trim()).toBe(`${line.start} - ${line.end}`);
       const description = compiled.querySelectorAll('.job-desc')[index];
       expect(description.innerText.trim()).toBe(line.description);
+      const link = compiled.querySelectorAll('.job-link')[index];
+      expect(link.getAttribute('href')).toBe(line.url);
     });
   });
 });
