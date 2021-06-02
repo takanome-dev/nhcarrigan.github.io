@@ -29,7 +29,10 @@
   <div *ngFor="let pos of exp">
     <hr class="job-divide" />
     <p class="job-header">
-      <span class="job-title">{{ pos.position }}</span> at {{ pos.name }}
+      <span class="job-title">{{ pos.position }}</span> at
+      <a href="{{ pos.url }}" target="_blank" rel="noopener noreferrer">{{
+        pos.name
+      }}</a>
     </p>
     <p class="job-time">{{ pos.start }} - {{ pos.end }}</p>
     <p class="job-desc">{{ pos.description }}</p>
