@@ -30,6 +30,10 @@ describe('HomeComponent', () => {
   it('should have the correct properties', () => {
     expect(component.links).toBeDefined();
     expect(component.links).toBe(links);
+    expect(component.years).toBeDefined();
+    expect(component.years).toBe(1);
+    expect(component.yearString).toBeDefined();
+    expect(component.yearString).toBe('1 year');
   });
 
   it('should display the correct title', () => {
