@@ -33,6 +33,14 @@ export const experience = [
       'Streamcord is a Discord bot that allows users to generate Twitch notifications for their servers. As support staff, I assist users with triaging and resolving issues related to the use of the service.',
   },
   {
+    name: 'Esports Agent',
+    position: 'Bot Developer',
+    start: '19 April 2021',
+    end: 'Present',
+    description:
+      'Esports Agent is a community for esports competition. I develop custom Discord bots for their server, to facilitate and streamline the operations.',
+  },
+  {
     name: 'DigitalOcean: Hacktoberfest',
     position: 'Community Moderator',
     start: '26 April 2021',
