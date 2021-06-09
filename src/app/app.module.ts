@@ -15,6 +15,8 @@ import { ContactComponent } from './contact/contact.component';
 import { SupportComponent } from './support/support.component';
 import { NgParticlesModule } from 'ng-particles';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { TermsComponent } from './terms/terms.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     ContactComponent,
     SupportComponent,
     FourOhFourComponent,
+    PrivacyComponent,
+    TermsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgParticlesModule],
   providers: [
