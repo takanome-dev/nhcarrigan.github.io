@@ -1,3 +1,9 @@
 a {
   color: var(--light-purple);
 }
+
+.tldr {
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+  border-radius: 10px;
+}
