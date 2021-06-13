@@ -54,4 +54,13 @@ export const experience = [
     description:
       'As a community moderator, I ensure the community rules and guidelines are followed, as well as help members in their participation in the Hacktoberfest event.',
   },
+  {
+    name: 'Battlesnake',
+    url: 'https://play.battlesnake.com',
+    position: 'Community Moderator',
+    start: '4 June 2021',
+    end: 'Present',
+    description:
+      'For Battlesnake, I help new players understand how the Battlesnake system works, and ensure the Discord community is a safe place for them to ask questions.',
+  },
 ];
