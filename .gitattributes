@@ -1,0 +1,13 @@
+  
+# Auto detect text files and perform LF normalization
+* text eol=LF
+*.ts text
+*.spec.ts text
+
+# Ignore binary files >:(
+*.png binary
+*.jpg binary
+*.cur binary
+
+# Don't touch my fonts
+*.ttf binary

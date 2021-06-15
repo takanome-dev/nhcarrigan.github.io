@@ -1,0 +1,77 @@
+:root {
+  --dark-purple: #3a3240;
+  --dark-blue: #0b0080;
+  --light-purple: #aea8de;
+  --cursor-normal: url("/assets/img/triforce.cur");
+  --cursor-pointer: url("/assets/img/sword.cur");
+}
+
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("/assets/fonts/PressStart2P-Regular.ttf");
+  font-display: swap;
+}
+
+html {
+  cursor: var(--cursor-normal), default;
+}
+
+body {
+  margin: 0;
+  background-color: var(--light-purple);
+  color: var(--dark-purple);
+  font: "Press Start 2P";
+  text-align: center;
+}
+
+a {
+  cursor: var(--cursor-pointer), pointer;
+  color: var(--dark-blue);
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.content {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 750px;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.job-timeline {
+  font-style: italic;
+  margin-top: 0;
+}
+
+/* NES.css Overrides */
+.nes-container.is-rounded.with-title.is-centered {
+  margin-bottom: 20px;
+}
+
+.nes-container.is-rounded.with-title.is-centered.is-dark {
+  margin-bottom: 20px;
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+}
+
+.nes-container.is-rounded.with-title.is-centered > .title {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+  font-size: 1.5rem;
+}
+
+.nes-btn {
+  cursor: var(--cursor-pointer), pointer;
+}
