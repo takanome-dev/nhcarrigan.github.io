@@ -18,7 +18,11 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--light-purple);
+  background: url("/assets/img/banner.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: var(--dark-purple);
   font: "Press Start 2P";
   text-align: center;
@@ -56,6 +60,10 @@ li {
 }
 
 /* NES.css Overrides */
+.nes-container.is-rounded {
+  background-color: rgb(174, 168, 222, 0.5);
+}
+
 .nes-container.is-rounded.with-title.is-centered {
   margin-bottom: 20px;
 }
