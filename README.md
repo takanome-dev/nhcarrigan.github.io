@@ -2,12 +2,6 @@
 
 This is the repository for my home page.
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/nhcarrigan.github.io)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/nhcarrigan.github.io)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/nhcarrigan.github.io)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/nhcarrigan.github.io)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/nhcarrigan.github.io)
-
 ## Live Version
 
 This page is currently deployed. [View the live website.](https://www.nhcarrigan.com)
