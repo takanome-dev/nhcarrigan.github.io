@@ -2,8 +2,15 @@
   --dark-purple: #3a3240;
   --dark-blue: #0b0080;
   --light-purple: #aea8de;
+  --light-blue: #48D1CC;
   --cursor-normal: url("/assets/img/triforce.cur");
   --cursor-pointer: url("/assets/img/sword.cur");
+
+  /* Sponsor Colours */
+  --silver-sponsor: #607d8b;
+  --gold-sponsor: #f1c40f;
+  --platinum-sponsor: #95a5a6;
+  --amethyst-sponsor: #9b59b6;
 }
 
 @font-face {
@@ -33,6 +40,10 @@ a {
   color: var(--dark-blue);
 }
 
+.light-link {
+  color: var(--light-blue);
+}
+
 ul {
   list-style: none;
   padding-inline-start: 0;
@@ -59,6 +70,24 @@ li {
   margin-top: 0;
 }
 
+/* Sponsor Tiers */
+
+.silver-sponsor {
+  color: var(--silver-sponsor);
+}
+
+.gold-sponsor {
+  color: var(--gold-sponsor);
+}
+
+.platinum-sponsor {
+  color: var(--platinum-sponsor);
+}
+
+.amethyst-sponsor {
+  color: var(--amethyst-sponsor);
+}
+
 /* NES.css Overrides */
 .nes-container.is-rounded {
   background-color: rgb(174, 168, 222, 0.5);
@@ -69,6 +98,12 @@ li {
 }
 
 .nes-container.is-rounded.with-title.is-centered.is-dark {
+  margin-bottom: 20px;
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+}
+
+.nes-container.is-rounded.is-centered.is-dark {
   margin-bottom: 20px;
   background-color: var(--dark-purple);
   color: var(--light-purple);
